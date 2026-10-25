@@ -1,0 +1,6 @@
+{
+  "name": "Vérif 237 — Observatoire Citoyen & Répertoire des Actes Officiels du Cameroun",
+  "description": "Plateforme civique indépendante de vérification des faits, de lutte contre la désinformation et d'authentification des actes officiels en République du Cameroun.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

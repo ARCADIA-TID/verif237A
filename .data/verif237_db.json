@@ -1,0 +1,3609 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "code": "#ADM-001",
+      "name": "Dr. François Kamga",
+      "email": "f.kamga@verif237.cm",
+      "phone": "+237 699 12 34 56",
+      "role": "Délégué Déontologique",
+      "roleType": "super-admin",
+      "jurisdiction": "Centre (Yaoundé)",
+      "keyHabilitation": "Gestion globale & audit légal",
+      "keyHabilitationSub": "Révocation clés RSA",
+      "securityStatus": "En ligne (il y a 4m)",
+      "securityDetail": "2FA FIDO2 / YubiKey",
+      "isOnline": true,
+      "avatarInitials": "FK",
+      "avatarUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDrndTEp_20Sq33hxNopGO3aiW1LKL-Yox2XTqgw-FUpWdqdh2kmtHt1jyVo2CtwMlpXZ0_k1xdeCudIBb44qAP6s3Qh9bNGb4UglEd1OQMnIc6HtaehfwrgTlNTc8vim0NTtUZN5SX49-YtnQYHrvgkuuEcxrldj8wZmCCFFx89o5tXlqBf3xLHjFFa0PR0uNgpyTXA_6vP0v12Rb9TPtRZuT8ysuRwYO94l4nhICxLftwEpL-B2Rzrw",
+      "sha256Enabled": true,
+      "status": "actif",
+      "validityUntil": "2026-12-31",
+      "createdAt": "2024-01-15"
+    },
+    {
+      "id": "user-2",
+      "code": "#REV-014",
+      "name": "Emmanuel Mballa",
+      "email": "e.mballa@verif237.cm",
+      "phone": "+237 677 88 99 00",
+      "role": "Réviseur Sénior & Juriste",
+      "roleType": "reviseur",
+      "jurisdiction": "Centre (Yaoundé)",
+      "keyHabilitation": "Scellement SHA-256",
+      "keyHabilitationSub": "Contre-expertise légale",
+      "securityStatus": "Actif (il y a 18m)",
+      "securityDetail": "Dossier #VRF-7731 • 2FA OK",
+      "isOnline": true,
+      "avatarInitials": "EM",
+      "avatarUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAjhSY8a389bT3wqKUGoKhQLq5xkFngaxrcbWF-IUtflM8Tu6GJhKskzcaGMcYGfGbzD3C2cIlnsYzoly0wE7wBwcYqj34lv4V-zUQ411FEq_pr_2acfFmlbQe0wKSPS4S7y1jzmbX9BBOOvgZ6VXOm9xMdaGuS6f2jn-PVeYiT4sgzZxjl4WRaLbjm2MENFfvZS5N9xB2z4MO5DdYc3_mfRgxegYDp-9PaAtUyquidNkMBga16zyCbsw",
+      "sha256Enabled": true,
+      "status": "actif",
+      "validityUntil": "2026-06-30",
+      "createdAt": "2024-02-01"
+    },
+    {
+      "id": "user-3",
+      "code": "#FOR-028",
+      "name": "Chantal Nji",
+      "email": "c.nji@verif237.cm",
+      "phone": "+237 655 44 33 22",
+      "role": "Expert Forensique & OSINT",
+      "roleType": "forensique",
+      "jurisdiction": "Littoral (Douala Hub)",
+      "keyHabilitation": "Métadonnées EXIF & InVID",
+      "keyHabilitationSub": "Dépouillement technique",
+      "securityStatus": "Actif (il y a 42m)",
+      "securityDetail": "2FA TOTP Validé",
+      "isOnline": true,
+      "avatarInitials": "CN",
+      "avatarUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDzOn1M0VzryOi7C3rsBVguSsOB_szw9ssvg9U4RXIFK7AnKHVENq_u9qRrxtoJ-UDSg8OrjGdgsEtml9BlaNwwRA9EzMSWPfnQfBDGYSYuTIyiolgfrG04kb_YGvFYdRO-_aIrx6FIymU0nhTyxb6E-hAS0T_kj2sd7g5jKSD_icmKnVZ5bc0sh8KTE7EnrEIzaaxjX4Zn9KQfqg-yrM1FidDPWDwdJ-NiLzV18cRN0lYu2XgVifVFuA",
+      "sha256Enabled": true,
+      "status": "actif",
+      "validityUntil": "2026-09-15",
+      "createdAt": "2024-03-10"
+    },
+    {
+      "id": "user-4",
+      "code": "#ENQ-041",
+      "name": "Moussa Bouba",
+      "email": "m.bouba@verif237.cm",
+      "phone": "+237 690 11 22 33",
+      "role": "Correspondant Régional",
+      "roleType": "terrain",
+      "jurisdiction": "Extrême-Nord (Maroua / Diamaré)",
+      "keyHabilitation": "Recueil preuves préfectures",
+      "keyHabilitationSub": "Délégations & Hôpitaux",
+      "securityStatus": "Actif (il y a 2h)",
+      "securityDetail": "2FA Authenticator OK",
+      "isOnline": false,
+      "avatarInitials": "MB",
+      "avatarUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBvp5Jj9-9HvdLZrbSCaRP05_P0jWFN2pYVi9v-p4UFSAU7VJYFk3rcd7oZsEB2IJFqbuXMxdzDsbfKpIE9MBCB3Z8xSf4Ww4eI3FCWynjPpnm-I7RsyebR-zDBpVfCjzEjfk1PQcu2PoudPoF3Loe4if2GJ0c-lM7gPVnqEFLvIxyn0cteCthxxOVj3f9vEh4fukJJos570Yxb5C_yal92zYZP7mANvgjtzsoC2E8Ibfk7bACXhLWleA",
+      "sha256Enabled": false,
+      "status": "actif",
+      "validityUntil": "2025-12-31",
+      "createdAt": "2024-04-12"
+    },
+    {
+      "id": "user-5",
+      "code": "#MOD-053",
+      "name": "Brenda Bih",
+      "email": "b.bih@verif237.cm",
+      "phone": "+237 671 22 33 44",
+      "role": "Triage Flux Signalements",
+      "roleType": "moderateur",
+      "jurisdiction": "Nord-Ouest (Bamenda Hub)",
+      "keyHabilitation": "Qualification WhatsApp / SMS",
+      "keyHabilitationSub": "Détection doublons",
+      "securityStatus": "Renouvellement 2FA requis",
+      "securityDetail": "Dernier accès : Hier 17h10",
+      "isOnline": false,
+      "avatarInitials": "BB",
+      "avatarUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBnf4-a6Oeq2FrqmXl05l45VWeV6OeYnfiTrJhuenjGxts8yKjEdvOgrX4MNgNSN3wKF8GLAnMB1CfOqltJ7gktY4I5YZSivXsGcuenN3v5aIYATrYscC_smOU9hAhOFP1gRsK_LZhDp8pOV-v_D__kNvF9l_woemc6CnwVZLnF03KR4JJElAvcKcbc6ZtCAzjZNca_V4l3uv9TLPcatl9qyX_O96eoCuRId3T1iHKg_wWcZRMbpk895g",
+      "sha256Enabled": false,
+      "needs2FARenewal": true,
+      "status": "en_attente_2fa",
+      "validityUntil": "2025-11-30",
+      "createdAt": "2024-05-20"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess-1",
+      "userId": "user-1",
+      "userName": "Dr. François Kamga",
+      "userRole": "super-admin",
+      "ipAddress": "197.234.219.45 (Yaoundé)",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/122.0",
+      "createdAt": "2026-10-21T18:30:27.343Z",
+      "lastActivityAt": "2026-10-21T18:53:27.343Z",
+      "expiresAt": "2026-10-21T19:30:27.343Z",
+      "isRevoked": false
+    },
+    {
+      "id": "sess-2",
+      "userId": "user-2",
+      "userName": "Emmanuel Mballa",
+      "userRole": "reviseur",
+      "ipAddress": "129.0.210.12 (Yaoundé MINFI)",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Edge/121.0",
+      "createdAt": "2026-10-21T18:15:27.343Z",
+      "lastActivityAt": "2026-10-21T18:45:27.343Z",
+      "expiresAt": "2026-10-21T19:15:27.343Z",
+      "isRevoked": false
+    },
+    {
+      "id": "sess-3",
+      "userId": "user-3",
+      "userName": "Chantal Nji",
+      "userRole": "forensique",
+      "ipAddress": "41.202.207.88 (Douala Akwa)",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) Firefox/123.0",
+      "createdAt": "2026-10-21T17:25:27.343Z",
+      "lastActivityAt": "2026-10-21T18:40:27.343Z",
+      "expiresAt": "2026-10-21T19:05:27.343Z",
+      "isRevoked": false
+    }
+  ],
+  "roles": [
+    {
+      "id": "role-super-admin",
+      "roleType": "super-admin",
+      "label": "Super-Administrateur Républicain",
+      "description": "Gouvernance globale, nomination des réviseurs, révocation des clés et audit légal.",
+      "permissions": {
+        "lecture_publique": true,
+        "soumission_citoyenne": true,
+        "triage_signalements": true,
+        "instruction_forensique": true,
+        "confrontation_officielle": true,
+        "contre_expertise_juridique": true,
+        "signature_collegiale_1": true,
+        "scellement_sha256": true,
+        "gestion_utilisateurs": true,
+        "revocation_sessions": true,
+        "consultation_audit": true,
+        "configuration_systeme": true
+      },
+      "updatedAt": "2025-01-10T08:00:00Z",
+      "updatedBy": "Dr. F. Kamga"
+    },
+    {
+      "id": "role-reviseur",
+      "roleType": "reviseur",
+      "label": "Réviseur Sénior & Juriste",
+      "description": "Contre-expertise juridique, vérification des textes de lois et contresignature d’accréditation.",
+      "permissions": {
+        "lecture_publique": true,
+        "soumission_citoyenne": true,
+        "triage_signalements": true,
+        "instruction_forensique": true,
+        "confrontation_officielle": true,
+        "contre_expertise_juridique": true,
+        "signature_collegiale_1": true,
+        "scellement_sha256": true,
+        "gestion_utilisateurs": false,
+        "revocation_sessions": false,
+        "consultation_audit": true,
+        "configuration_systeme": false
+      },
+      "updatedAt": "2025-01-10T08:00:00Z",
+      "updatedBy": "Dr. F. Kamga"
+    },
+    {
+      "id": "role-forensique",
+      "roleType": "forensique",
+      "label": "Expert Forensique & OSINT",
+      "description": "Analyse d’images, métadonnées EXIF, recherche inversée et signature technique 1.",
+      "permissions": {
+        "lecture_publique": true,
+        "soumission_citoyenne": true,
+        "triage_signalements": true,
+        "instruction_forensique": true,
+        "confrontation_officielle": true,
+        "contre_expertise_juridique": false,
+        "signature_collegiale_1": true,
+        "scellement_sha256": false,
+        "gestion_utilisateurs": false,
+        "revocation_sessions": false,
+        "consultation_audit": true,
+        "configuration_systeme": false
+      },
+      "updatedAt": "2025-01-10T08:00:00Z",
+      "updatedBy": "Dr. F. Kamga"
+    },
+    {
+      "id": "role-terrain",
+      "roleType": "terrain",
+      "label": "Enquêteur Terrain Régional",
+      "description": "Vérification physique auprès des préfectures, tribunaux et délégations régionales.",
+      "permissions": {
+        "lecture_publique": true,
+        "soumission_citoyenne": true,
+        "triage_signalements": true,
+        "instruction_forensique": true,
+        "confrontation_officielle": true,
+        "contre_expertise_juridique": false,
+        "signature_collegiale_1": false,
+        "scellement_sha256": false,
+        "gestion_utilisateurs": false,
+        "revocation_sessions": false,
+        "consultation_audit": false,
+        "configuration_systeme": false
+      },
+      "updatedAt": "2025-01-10T08:00:00Z",
+      "updatedBy": "Dr. F. Kamga"
+    },
+    {
+      "id": "role-moderateur",
+      "roleType": "moderateur",
+      "label": "Modérateur Triage & Doublons",
+      "description": "Filtrage initial des alertes WhatsApp, SMS et réseaux sociaux avant instruction.",
+      "permissions": {
+        "lecture_publique": true,
+        "soumission_citoyenne": true,
+        "triage_signalements": true,
+        "instruction_forensique": false,
+        "confrontation_officielle": false,
+        "contre_expertise_juridique": false,
+        "signature_collegiale_1": false,
+        "scellement_sha256": false,
+        "gestion_utilisateurs": false,
+        "revocation_sessions": false,
+        "consultation_audit": false,
+        "configuration_systeme": false
+      },
+      "updatedAt": "2025-01-10T08:00:00Z",
+      "updatedBy": "Dr. F. Kamga"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1792938267125-717",
+      "index": 6,
+      "time": "14:24:27",
+      "timestamp": "2026-10-25T14:24:27.102Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC2153",
+      "detail": "Verdict canonique : UNVERIFIABLE (LOW). Durée : 3s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC2153",
+      "result": "SUCCESS",
+      "correlationId": "corr-309327",
+      "extraMeta": "Verdict=UNVERIFIABLE|Elapsed=3s|SLA=true|Provider=Observatoire Souverain Cameroun (AgNES)",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "410e2483ebca702aa13d9a8bd2882d0d32cce130ad52d6c9041ccf6178e2f4f0"
+    },
+    {
+      "id": "log-1792662616010-194",
+      "index": 6,
+      "time": "09:50:15",
+      "timestamp": "2026-10-22T09:50:15.994Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC1044",
+      "detail": "Verdict canonique : UNVERIFIABLE (LOW). Durée : 2s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC1044",
+      "result": "SUCCESS",
+      "correlationId": "corr-519017",
+      "extraMeta": "Verdict=UNVERIFIABLE|Elapsed=2s|SLA=true|Provider=Observatoire Souverain Cameroun (AgNES)",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "37ffd8791b5abb2f723861c3506f940f0b1471a7d99ed02eee61c0de2f6a4eb4"
+    },
+    {
+      "id": "log-1792662483246-383",
+      "index": 6,
+      "time": "09:48:03",
+      "timestamp": "2026-10-22T09:48:03.246Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-2089",
+      "detail": "Verdict canonique : FALSE (HIGH). Durée : 2s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-2089",
+      "result": "SUCCESS",
+      "correlationId": "corr-188226",
+      "extraMeta": "Verdict=FALSE|Elapsed=2s|SLA=true|Provider=Observatoire Souverain Cameroun (AgNES)",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "1af5981178146f7418e1e4f2aea05495f6920f47018af0b6e37a111c8b7a2382"
+    },
+    {
+      "id": "log-1792662480951-31",
+      "index": 6,
+      "time": "09:48:00",
+      "timestamp": "2026-10-22T09:48:00.923Z",
+      "type": "ATTRIBUTION",
+      "title": "Nouvelle soumission enregistrée #VRF-2026-2089",
+      "detail": "Analyse préliminaire automatique achevée pour le dossier #VRF-2026-2089. Statut : En attente d'instruction.",
+      "user": "citoyen (Citoyen Veilleur)",
+      "actorId": "system",
+      "resource": "Dossier #VRF-2026-2089",
+      "result": "SUCCESS",
+      "correlationId": "corr-549145",
+      "extraMeta": "Urgence : haute",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "c63e06cd47a3919141029bfe328826621e0ba12093e6687c2ec763957c75b2a1"
+    },
+    {
+      "id": "log-1792611422407-814",
+      "index": 6,
+      "time": "19:37:02",
+      "timestamp": "2026-10-21T19:37:02.382Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC5263",
+      "detail": "Verdict canonique : UNVERIFIABLE (LOW). Durée : 1s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC5263",
+      "result": "SUCCESS",
+      "correlationId": "corr-262794",
+      "extraMeta": "Verdict=UNVERIFIABLE|Elapsed=1s|SLA=true|Provider=Observatoire Souverain Cameroun (AgNES)",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "598f2acaa24abb1fdf4410ecf88d62836083370bff33b09d4bb4154063f9d738"
+    },
+    {
+      "id": "log-1792611399426-298",
+      "index": 6,
+      "time": "19:36:39",
+      "timestamp": "2026-10-21T19:36:39.425Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-9063",
+      "detail": "Verdict canonique : FALSE (HIGH). Durée : 1s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-9063",
+      "result": "SUCCESS",
+      "correlationId": "corr-338537",
+      "extraMeta": "Verdict=FALSE|Elapsed=1s|SLA=true|Provider=Observatoire Souverain Cameroun (AgNES)",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "dd2510d427d0c65a2d5044a608c897fe6358fe7ea6f7e9966690f5bec8b54172"
+    },
+    {
+      "id": "log-1792611398268-177",
+      "index": 6,
+      "time": "19:36:38",
+      "timestamp": "2026-10-21T19:36:38.261Z",
+      "type": "ATTRIBUTION",
+      "title": "Nouvelle soumission enregistrée #VRF-2026-9063",
+      "detail": "Analyse préliminaire automatique achevée pour le dossier #VRF-2026-9063. Statut : En attente d'instruction.",
+      "user": "Citoyen Testeur",
+      "actorId": "system",
+      "resource": "Dossier #VRF-2026-9063",
+      "result": "SUCCESS",
+      "correlationId": "corr-832730",
+      "extraMeta": "Urgence : haute",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "739f80bacdb665878f4ba32f24a2ce26e9a484eeb30e0d2cb52f4d32e64a5921"
+    },
+    {
+      "id": "log-1792611386949-931",
+      "index": 6,
+      "time": "19:36:26",
+      "timestamp": "2026-10-21T19:36:26.948Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-6002",
+      "detail": "Verdict canonique : FALSE (HIGH). Durée : 1s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-6002",
+      "result": "SUCCESS",
+      "correlationId": "corr-569010",
+      "extraMeta": "Verdict=FALSE|Elapsed=1s|SLA=true|Provider=Observatoire Souverain Cameroun (AgNES)",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "551a2ad092462bc8e177e3687ef7d7cbee0c084b434588ac15ef24fe53d126e7"
+    },
+    {
+      "id": "log-1792611385765-824",
+      "index": 6,
+      "time": "19:36:25",
+      "timestamp": "2026-10-21T19:36:25.713Z",
+      "type": "ATTRIBUTION",
+      "title": "Nouvelle soumission enregistrée #VRF-2026-6002",
+      "detail": "Analyse préliminaire automatique achevée pour le dossier #VRF-2026-6002. Statut : En attente d'instruction.",
+      "user": "Citoyen Testeur",
+      "actorId": "system",
+      "resource": "Dossier #VRF-2026-6002",
+      "result": "SUCCESS",
+      "correlationId": "corr-890001",
+      "extraMeta": "Urgence : haute",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "78f65604b84e16667d93b18b3bbaa82231b6fb1612ccef3ab8a6816ae64ea985"
+    },
+    {
+      "id": "log-1792611250927-524",
+      "index": 6,
+      "time": "19:34:10",
+      "timestamp": "2026-10-21T19:34:10.903Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC4422",
+      "detail": "Verdict canonique : UNVERIFIABLE (LOW). Durée : 2s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC4422",
+      "result": "SUCCESS",
+      "correlationId": "corr-239926",
+      "extraMeta": "Verdict=UNVERIFIABLE|Elapsed=2s|SLA=true|Provider=Observatoire Souverain Cameroun (AgNES)",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "5a953ffe5d24617d35ceb4d68c7a4c201bf798bfa22b9eecbe3fb196dfd27f6c"
+    },
+    {
+      "id": "log-1792611170283-773",
+      "index": 6,
+      "time": "19:32:50",
+      "timestamp": "2026-10-21T19:32:50.256Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC7802",
+      "detail": "Verdict canonique : UNVERIFIABLE (LOW). Durée : 1s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC7802",
+      "result": "SUCCESS",
+      "correlationId": "corr-225874",
+      "extraMeta": "Verdict=UNVERIFIABLE|Elapsed=1s|SLA=true|Provider=Observatoire Souverain Cameroun (AgNES)",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "f680c4a17a91b85e1625432016bc6f52a39ab1c62922fac8738fb516dd376716"
+    },
+    {
+      "id": "log-1792610613091-294",
+      "index": 6,
+      "time": "19:23:33",
+      "timestamp": "2026-10-21T19:23:33.062Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC5346",
+      "detail": "Verdict IA : NON_VERIFIABLE (FAIBLE). Durée : 2s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC5346",
+      "result": "SUCCESS",
+      "correlationId": "corr-330435",
+      "extraMeta": "Verdict=NON_VERIFIABLE|Elapsed=2s|SLA=true",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "2340e850d1daf6aed65ad3ccfb4de5aa9692fd73c9e55bd0a1c15831065c29c5"
+    },
+    {
+      "id": "log-1792610458602-11",
+      "index": 6,
+      "time": "19:20:58",
+      "timestamp": "2026-10-21T19:20:58.578Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC3734",
+      "detail": "Verdict IA : NON_VERIFIABLE (FAIBLE). Durée : 11s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC3734",
+      "result": "SUCCESS",
+      "correlationId": "corr-184795",
+      "extraMeta": "Verdict=NON_VERIFIABLE|Elapsed=11s|SLA=true",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "7a3febf020e146102b96910af0ab0b0bf035de5be966473c32c001ba80226dc5"
+    },
+    {
+      "id": "log-1792610241452-304",
+      "index": 6,
+      "time": "19:17:21",
+      "timestamp": "2026-10-21T19:17:21.417Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC3722",
+      "detail": "Verdict IA : NON_VERIFIABLE (FAIBLE). Durée : 4s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC3722",
+      "result": "SUCCESS",
+      "correlationId": "corr-345043",
+      "extraMeta": "Verdict=NON_VERIFIABLE|Elapsed=4s|SLA=true",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "4985a781c99ffac153a13c0ec1679cfcea01253d84071110000eeaec8a4cd737"
+    },
+    {
+      "id": "log-1792610181066-833",
+      "index": 6,
+      "time": "19:16:21",
+      "timestamp": "2026-10-21T19:16:21.029Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC1680",
+      "detail": "Verdict IA : NON_VERIFIABLE (FAIBLE). Durée : 2s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC1680",
+      "result": "SUCCESS",
+      "correlationId": "corr-231404",
+      "extraMeta": "Verdict=NON_VERIFIABLE|Elapsed=2s|SLA=true",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "cb99da91a4dcef953081a3bff43ad4d6750047f6b92d4a89f5d64ce3212dd679"
+    },
+    {
+      "id": "log-1792610083447-870",
+      "index": 6,
+      "time": "19:14:43",
+      "timestamp": "2026-10-21T19:14:43.392Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC4885",
+      "detail": "Verdict IA : NON_VERIFIABLE (FAIBLE). Durée : 2s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC4885",
+      "result": "SUCCESS",
+      "correlationId": "corr-835146",
+      "extraMeta": "Verdict=NON_VERIFIABLE|Elapsed=2s|SLA=true",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "0a5c732f9f2c130bace02e0eb4042b49bfb62764dfa9835d686f9f47f24d8560"
+    },
+    {
+      "id": "log-1",
+      "time": "14:38:12",
+      "type": "AUTH",
+      "title": "Connexion sécurisée 2FA",
+      "detail": "Connexion réussie via 2FA FIDO2 par E. Mballa (#REV-014)",
+      "user": "E. Mballa (#REV-014)",
+      "actorId": "user-2",
+      "resource": "Session / Console Réviseur",
+      "result": "SUCCESS",
+      "hashOrIp": "197.234.219.*** (Yaoundé)",
+      "index": 1,
+      "timestamp": "2026-10-21T13:55:27.344Z",
+      "correlationId": "corr-746368",
+      "previousHash": "935cc86d958d315395146a25420c20ec100a584c2b72240a09e2f8c859c9385d",
+      "hash": "a03e0b7bddb48427fd8e005343a3b1f2cbfb5b2efb71b82d40da42e1b84792a0"
+    },
+    {
+      "id": "log-2",
+      "time": "14:15:04",
+      "type": "ATTRIBUTION",
+      "title": "Attribution dossier",
+      "detail": "Attribution du dossier #VRF-7734 à C. Nji (#FOR-028)",
+      "user": "Dr. F. Kamga",
+      "actorId": "user-1",
+      "resource": "Dossier #VRF-7734",
+      "result": "SUCCESS",
+      "extraMeta": "Objet : Faux communiqué concours Police DGSN",
+      "index": 2,
+      "timestamp": "2026-10-21T14:55:27.344Z",
+      "correlationId": "corr-605982",
+      "previousHash": "a03e0b7bddb48427fd8e005343a3b1f2cbfb5b2efb71b82d40da42e1b84792a0",
+      "hash": "0f098273671adfaa5c7f368c67d0683053fa9ba7932c6be8c5cad726ed4ec3fe"
+    },
+    {
+      "id": "log-3",
+      "time": "13:52:40",
+      "type": "SIGNATURE",
+      "title": "Signature collégiale",
+      "detail": "Validation collégiale Signature 1/2 sur dossier #VRF-7731 par C. Nji",
+      "user": "C. Nji (#FOR-028)",
+      "actorId": "user-3",
+      "resource": "Dossier #VRF-7731",
+      "result": "SUCCESS",
+      "hashOrIp": "7b84a920a...34e1",
+      "index": 3,
+      "timestamp": "2026-10-21T15:55:27.344Z",
+      "correlationId": "corr-732198",
+      "previousHash": "0f098273671adfaa5c7f368c67d0683053fa9ba7932c6be8c5cad726ed4ec3fe",
+      "hash": "3aa0ab700a0142527fa1cd0209e1992530a143fcf3fcc992114c6fc04c864f74"
+    },
+    {
+      "id": "log-4",
+      "time": "11:20:18",
+      "type": "PERMISSIONS",
+      "title": "Élévation de droits déontologiques",
+      "detail": "Attribution droit scellement pour E. Mballa (Collège Réviseurs)",
+      "user": "Dr. F. Kamga (#ADM-001)",
+      "actorId": "user-1",
+      "resource": "Habilitation #REV-014",
+      "result": "SUCCESS",
+      "extraMeta": "Parrainage validé par Conseil d’Administration",
+      "index": 4,
+      "timestamp": "2026-10-21T16:55:27.344Z",
+      "correlationId": "corr-816701",
+      "previousHash": "3aa0ab700a0142527fa1cd0209e1992530a143fcf3fcc992114c6fc04c864f74",
+      "hash": "2ad893ff0d46ecff309d789c8ad73abf810a0f7b890f734c99a76bf0d07e7994"
+    },
+    {
+      "id": "log-5",
+      "time": "09:05:00",
+      "type": "SCELLEMENT",
+      "title": "Scellement immuable WORM",
+      "detail": "Sauvegarde automatique chiffrée de la base d'audit légale",
+      "user": "Système WORM Automatisé",
+      "actorId": "system",
+      "resource": "Nœud S3 Scellé Yaoundé",
+      "result": "SUCCESS",
+      "hashOrIp": "d41d8cd98f00b204e9800998ecf8427e",
+      "index": 5,
+      "timestamp": "2026-10-21T17:55:27.344Z",
+      "correlationId": "corr-991970",
+      "previousHash": "2ad893ff0d46ecff309d789c8ad73abf810a0f7b890f734c99a76bf0d07e7994",
+      "hash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f"
+    }
+  ],
+  "investigations": [
+    {
+      "id": "inv-1792662480922-2089",
+      "code": "#VRF-2026-2089",
+      "title": "« « Communiqué Spécial MINFOPRA : Recrutement exceptionnel de 3 500 instituteurs de l'enseignement technique »",
+      "description": "« Communiqué Spécial MINFOPRA : Recrutement exceptionnel de 3 500 instituteurs de l'enseignement technique. Dépôt des dossiers auprès de M. Abena au 677 82 14 00 avec 12 500 FCFA de frais de quittance par Orange Money ou MTN MoMo. »",
+      "sourceType": "Texte WhatsApp",
+      "sourceUrl": "https://whatsapp.com/channel/fake-concours-cameroun",
+      "urgency": "haute",
+      "urgencyLabel": "⚠️ URGENCE HAUTE • Risque de préjudice financier ou trouble",
+      "timeAgo": "À l’instant",
+      "submittedAt": "2026-10-22T09:48:00.922Z",
+      "submittedBy": "citoyen (Citoyen Veilleur)",
+      "assignedTo": "En attente d’attribution",
+      "status": "pre_analysis",
+      "statusLabel": "Analyse automatique disponible (En attente de révision déontologique)",
+      "scope": "Centre (Yaoundé)",
+      "previewTag": "Lien Web / Post",
+      "preAnalysis": {
+        "extractedClaims": [
+          "« Communiqué Spécial MINFOPRA : Recrutement exceptionnel de 3 500 instituteurs de l'enseignement technique",
+          "Dépôt des dossiers auprès de M",
+          "Abena au 677 82 14 00 avec 12 500 FCFA de frais de quittance par Orange Money ou MTN MoMo"
+        ],
+        "neutralSummary": "Le signalement porte sur une allégation concernant MINFOPRA. L'affirmation principale rapporte que « « Communiqué Spécial MINFOPRA : Recrutement exceptionnel de 3 500 instituteurs de l'enseignement technique ». L'organisme de référence identifié est MINFOPRA — Ministère de la Fonction Publique et de la Réforme Administrative. Les vérificateurs devront confronter ce document aux archives légales.",
+        "detectedEntities": {
+          "ministries": [
+            "MINFOPRA — Ministère de la Fonction Publique et de la Réforme Administrative"
+          ],
+          "locations": [
+            "Centre (Yaoundé)"
+          ],
+          "dates": [
+            "82 14"
+          ],
+          "individuals": []
+        },
+        "duplicatesFound": [
+          {
+            "id": "inv-1792611398259-9063",
+            "code": "#VRF-2026-9063",
+            "title": "« Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+            "similarity": "45%"
+          },
+          {
+            "id": "inv-1792611385711-6002",
+            "code": "#VRF-2026-6002",
+            "title": "« Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+            "similarity": "45%"
+          }
+        ],
+        "urlCheck": {
+          "url": "https://whatsapp.com/channel/fake-concours-cameroun",
+          "isReachable": true,
+          "isSuspicious": true,
+          "flags": [
+            "Nom de domaine n'appartenant pas au registre public camerounais (.gov.cm)"
+          ]
+        },
+        "limitsOfAnalysis": [
+          "Cette synthèse automatique est préliminaire et ne constitue pas un verdict officiel.",
+          "Nécessite la confrontation contradictoire avec l'administration émettrice présumée.",
+          "Scellement légal conditionné par la double signature collégiale d'enquêteurs assermentés."
+        ],
+        "analyzedAt": "2026-10-22T09:48:00.922Z"
+      },
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [
+        {
+          "id": "note-1792662480923",
+          "author": "Système Forensique Automatisé",
+          "content": "Dépouillement initial terminé : 3 affirmation(s) isolée(s), priorité fixée à « ⚠️ URGENCE HAUTE • Risque de préjudice financier ou trouble ».",
+          "createdAt": "2026-10-22T09:48:00.922Z"
+        }
+      ],
+      "aiVerification": {
+        "id": "ai-inv-1792662480922-2089",
+        "status": "resultat_disponible",
+        "statusLabel": "Résultat disponible (Analyse automatisée certifiée)",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Synthèse factuelle et traçabilité achevées.",
+        "startedAt": "2026-10-22T09:48:00.954Z",
+        "elapsedSeconds": 2,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 0,
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2",
+        "workflowStep": "COMPLETED",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-22T09:48:03.240Z",
+        "analyzedClaim": "« Communiqué Spécial MINFOPRA : Recrutement exceptionnel de 3 500 instituteurs de l'enseignement technique. Dépôt des dossiers auprès de M. Abena au 6…",
+        "verdict": "FAUSSE",
+        "canonicalVerdict": "FALSE",
+        "verdictLabel": "FAUSSE INFORMATION (TENTATIVE D'ESCROQUERIE)",
+        "summary": "Cette publication présente les caractéristiques formelles d'une escroquerie par usurpation administrative camerounaise. L'exigence de frais de dossier par virement Mobile Money contrevient formellement aux procédures légales du Trésor Public.",
+        "reasoning_summary": "L'analyse a identifié un motif financier illégal (Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public). Aucun organisme public camerounais ne recrute ou ne perçoit de quittances administratives via des comptes mobiles de particuliers.",
+        "arguments": [
+          "Antécédent répertorié : « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 » — Dossier d'archive VÉRIF237 (#VRF-2026-9063)",
+          "Antécédent répertorié : « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 » — Dossier d'archive VÉRIF237 (#VRF-2026-6002)",
+          "Tutelle institutionnelle identifiée : Ministère de la Fonction Publique et de la Réforme Administrative (MINFOPRA) — Répertoire Officiel de l'État du Cameroun — MINFOPRA",
+          "Vérification de l'URL cible : https://whatsapp.com/channel/fake-concours-cameroun — Source Externe",
+          "Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public — Réglementation financière publique du Cameroun (Loi de Finances)"
+        ],
+        "evidence": [
+          {
+            "claim": "Antécédent répertorié : « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+            "supports": false,
+            "sourceTitle": "Dossier d'archive VÉRIF237 (#VRF-2026-9063)",
+            "sourceUrl": "https://verif237.cm/dossier/#VRF-2026-9063",
+            "excerpt": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+            "date": "2026-10-21",
+            "reliability": "reference_documentaire"
+          },
+          {
+            "claim": "Antécédent répertorié : « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+            "supports": false,
+            "sourceTitle": "Dossier d'archive VÉRIF237 (#VRF-2026-6002)",
+            "sourceUrl": "https://verif237.cm/dossier/#VRF-2026-6002",
+            "excerpt": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+            "date": "2026-10-21",
+            "reliability": "reference_documentaire"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Fonction Publique et de la Réforme Administrative (MINFOPRA)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINFOPRA",
+            "sourceUrl": "https://minfopra.gov.cm",
+            "excerpt": "Gestion des carrières des fonctionnaires, ouverture des concours directs (ENAM, Douanes, Cadres).",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Vérification de l'URL cible : https://whatsapp.com/channel/fake-concours-cameroun",
+            "supports": false,
+            "sourceTitle": "Source Externe",
+            "sourceUrl": "https://whatsapp.com/channel/fake-concours-cameroun",
+            "excerpt": "<<<SOURCE_EXTERNE_NON_VALIDEE nom=\"https://whatsapp.com/channel/fake-concours-cameroun\">\nPortail vérifié : https://whatsapp.com/channel/fake-concours-cameroun. Consultation dans le cadre de l'investigation VÉRIF237.\n</<<FIN_SOURCE_EXTERNE>>>",
+            "reliability": "non_confirmee"
+          },
+          {
+            "claim": "Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public",
+            "supports": false,
+            "sourceTitle": "Réglementation financière publique du Cameroun (Loi de Finances)",
+            "sourceUrl": "https://www.minfi.gov.cm",
+            "excerpt": "Tout droit d’inscription ou frais de concours officiel fait l’objet d’une quittance émise par le Trésor Public ou d'un compte bancaire officiel du Trésor, jamais de portefeuille mobile personnel.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "name": "MINFOPRA — Mises en garde et communiqués officiels",
+            "title": "MINFOPRA — Mises en garde et communiqués officiels",
+            "url": "https://minfopra.gov.cm",
+            "organizationOrAuthor": "MINFOPRA",
+            "date": "2026",
+            "snippet": "Alerte permanente contre les faux recrutements et faux communiqués circulant sur les réseaux sociaux.",
+            "excerpt": "Alerte permanente contre les faux recrutements et faux communiqués circulant sur les réseaux sociaux.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          },
+          {
+            "name": "Lien soumis par le citoyen",
+            "title": "Lien soumis par le citoyen",
+            "url": "https://whatsapp.com/channel/fake-concours-cameroun",
+            "organizationOrAuthor": "Source Web",
+            "snippet": "Portail vérifié : https://whatsapp.com/channel/fake-concours-cameroun. Consultation dans le cadre de l'investigation VÉRIF237.",
+            "excerpt": "Portail vérifié : https://whatsapp.com/channel/fake-concours-cameroun. Consultation dans le cadre de l'investigation VÉRIF237.",
+            "isOfficial": false,
+            "reliability": "non_confirmee"
+          }
+        ],
+        "confidence": "ELEVE",
+        "confidenceScore": 95,
+        "confidenceExplanation": "Indice élevé en raison de la présence explicite d’indicateurs d’extorsion financière par portefeuille mobile non autorisé.",
+        "limits": [
+          "Enquête judiciaire requise pour identifier les titulaires des numéros de téléphone incriminés."
+        ]
+      },
+      "verdict": "FAUX",
+      "verdictLabel": "FAUSSE INFORMATION (TENTATIVE D'ESCROQUERIE)"
+    },
+    {
+      "id": "inv-1792611398259-9063",
+      "code": "#VRF-2026-9063",
+      "title": "« Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+      "description": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+      "sourceType": "WhatsApp citoyen",
+      "urgency": "haute",
+      "urgencyLabel": "⚠️ URGENCE HAUTE • Risque de préjudice financier ou trouble",
+      "timeAgo": "À l’instant",
+      "submittedAt": "2026-10-21T19:36:38.259Z",
+      "submittedBy": "Citoyen Testeur",
+      "assignedTo": "En attente d’attribution",
+      "status": "pre_analysis",
+      "statusLabel": "Analyse automatique disponible (En attente de révision déontologique)",
+      "scope": "National",
+      "previewTag": "Texte WhatsApp",
+      "preAnalysis": {
+        "extractedClaims": [
+          "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456"
+        ],
+        "neutralSummary": "Le signalement porte sur une allégation concernant MINFOPRA. L'affirmation principale rapporte que « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456 ». L'organisme de référence identifié est MINFOPRA — Ministère de la Fonction Publique et de la Réforme Administrative. Les vérificateurs devront confronter ce document aux archives légales.",
+        "detectedEntities": {
+          "ministries": [
+            "MINFOPRA — Ministère de la Fonction Publique et de la Réforme Administrative"
+          ],
+          "locations": [],
+          "dates": [],
+          "individuals": []
+        },
+        "duplicatesFound": [
+          {
+            "id": "inv-1792611385711-6002",
+            "code": "#VRF-2026-6002",
+            "title": "« Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+            "similarity": "91%"
+          }
+        ],
+        "urlCheck": {
+          "isReachable": false,
+          "isSuspicious": false,
+          "flags": []
+        },
+        "limitsOfAnalysis": [
+          "Cette synthèse automatique est préliminaire et ne constitue pas un verdict officiel.",
+          "Nécessite la confrontation contradictoire avec l'administration émettrice présumée.",
+          "Scellement légal conditionné par la double signature collégiale d'enquêteurs assermentés."
+        ],
+        "analyzedAt": "2026-10-21T19:36:38.259Z"
+      },
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [
+        {
+          "id": "note-1792611398261",
+          "author": "Système Forensique Automatisé",
+          "content": "Dépouillement initial terminé : 1 affirmation(s) isolée(s), priorité fixée à « ⚠️ URGENCE HAUTE • Risque de préjudice financier ou trouble ».",
+          "createdAt": "2026-10-21T19:36:38.259Z"
+        }
+      ],
+      "aiVerification": {
+        "id": "ai-inv-1792611398259-9063",
+        "status": "resultat_disponible",
+        "statusLabel": "Résultat disponible (Analyse automatisée certifiée)",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Synthèse factuelle et traçabilité achevées.",
+        "startedAt": "2026-10-21T19:36:38.270Z",
+        "elapsedSeconds": 1,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 0,
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2",
+        "workflowStep": "COMPLETED",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-21T19:36:39.418Z",
+        "analyzedClaim": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+        "verdict": "FAUSSE",
+        "canonicalVerdict": "FALSE",
+        "verdictLabel": "FAUSSE INFORMATION (TENTATIVE D'ESCROQUERIE)",
+        "summary": "Cette publication présente les caractéristiques formelles d'une escroquerie par usurpation administrative camerounaise. L'exigence de frais de dossier par virement Mobile Money contrevient formellement aux procédures légales du Trésor Public.",
+        "reasoning_summary": "L'analyse a identifié un motif financier illégal (Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public). Aucun organisme public camerounais ne recrute ou ne perçoit de quittances administratives via des comptes mobiles de particuliers.",
+        "arguments": [
+          "Antécédent répertorié : « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 » — Dossier d'archive VÉRIF237 (#VRF-2026-6002)",
+          "Tutelle institutionnelle identifiée : Ministère de la Fonction Publique et de la Réforme Administrative (MINFOPRA) — Répertoire Officiel de l'État du Cameroun — MINFOPRA",
+          "Tutelle institutionnelle identifiée : Ministère de la Santé Publique (MINSANTE) — Répertoire Officiel de l'État du Cameroun — MINSANTE",
+          "Tutelle institutionnelle identifiée : Ministère de l’Enseignement Supérieur (MINESUP) — Répertoire Officiel de l'État du Cameroun — MINESUP",
+          "Tutelle institutionnelle identifiée : Ministère des Finances & Direction Générale des Impôts (MINFI / DGI) — Répertoire Officiel de l'État du Cameroun — MINFI / DGI",
+          "Tutelle institutionnelle identifiée : Ministère des Postes et Télécommunications (MINPOSTEL) — Répertoire Officiel de l'État du Cameroun — MINPOSTEL",
+          "Tutelle institutionnelle identifiée : Ministère de la Justice, Garde des Sceaux (MINJUSTICE) — Répertoire Officiel de l'État du Cameroun — MINJUSTICE",
+          "Tutelle institutionnelle identifiée : Ministère de l’Administration Territoriale (MINAT) — Répertoire Officiel de l'État du Cameroun — MINAT",
+          "Tutelle institutionnelle identifiée : Ministère du Commerce (MINCOMMERCE) — Répertoire Officiel de l'État du Cameroun — MINCOMMERCE",
+          "Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public — Réglementation financière publique du Cameroun (Loi de Finances)"
+        ],
+        "evidence": [
+          {
+            "claim": "Antécédent répertorié : « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+            "supports": false,
+            "sourceTitle": "Dossier d'archive VÉRIF237 (#VRF-2026-6002)",
+            "sourceUrl": "https://verif237.cm/dossier/#VRF-2026-6002",
+            "excerpt": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+            "date": "2026-10-21",
+            "reliability": "reference_documentaire"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Fonction Publique et de la Réforme Administrative (MINFOPRA)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINFOPRA",
+            "sourceUrl": "https://minfopra.gov.cm",
+            "excerpt": "Gestion des carrières des fonctionnaires, ouverture des concours directs (ENAM, Douanes, Cadres).",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Santé Publique (MINSANTE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINSANTE",
+            "sourceUrl": "https://minsante.cm",
+            "excerpt": "Politique sanitaire nationale, alertes épidémiologiques, gratuité des soins ciblés.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de l’Enseignement Supérieur (MINESUP)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINESUP",
+            "sourceUrl": "https://minesup.gov.cm",
+            "excerpt": "Universités d’État, IPES reconnus, homologation des diplômes et bourses de coopération.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère des Finances & Direction Générale des Impôts (MINFI / DGI)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINFI / DGI",
+            "sourceUrl": "https://dgi.minfi.gov.cm",
+            "excerpt": "Fiscalité, tarifs des timbres fiscaux, télédéclaration, régimes fiscaux PME.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère des Postes et Télécommunications (MINPOSTEL)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINPOSTEL",
+            "sourceUrl": "https://minpostel.gov.cm",
+            "excerpt": "Régulation des communications électroniques, inclusion numérique, infrastructures de données souveraines.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Justice, Garde des Sceaux (MINJUSTICE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINJUSTICE",
+            "sourceUrl": "https://minjustice.gov.cm",
+            "excerpt": "Délivrance du casier judiciaire (bulletin n°3), code pénal et répression de la propagation de fausses nouvelles.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de l’Administration Territoriale (MINAT)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINAT",
+            "sourceUrl": "https://minat.gov.cm",
+            "excerpt": "Autorisations des ONG, sécurité territoriale, gouvernorats et préfectures des 10 régions.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère du Commerce (MINCOMMERCE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINCOMMERCE",
+            "sourceUrl": "https://mincommerce.gov.cm",
+            "excerpt": "Plafonds de prix des denrées de première nécessité, homologation des tarifs de transport.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public",
+            "supports": false,
+            "sourceTitle": "Réglementation financière publique du Cameroun (Loi de Finances)",
+            "sourceUrl": "https://www.minfi.gov.cm",
+            "excerpt": "Tout droit d’inscription ou frais de concours officiel fait l’objet d’une quittance émise par le Trésor Public ou d'un compte bancaire officiel du Trésor, jamais de portefeuille mobile personnel.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "name": "MINFOPRA — Mises en garde et communiqués officiels",
+            "title": "MINFOPRA — Mises en garde et communiqués officiels",
+            "url": "https://minfopra.gov.cm",
+            "organizationOrAuthor": "MINFOPRA",
+            "date": "2026",
+            "snippet": "Alerte permanente contre les faux recrutements et faux communiqués circulant sur les réseaux sociaux.",
+            "excerpt": "Alerte permanente contre les faux recrutements et faux communiqués circulant sur les réseaux sociaux.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": "ELEVE",
+        "confidenceScore": 95,
+        "confidenceExplanation": "Indice élevé en raison de la présence explicite d’indicateurs d’extorsion financière par portefeuille mobile non autorisé.",
+        "limits": [
+          "Enquête judiciaire requise pour identifier les titulaires des numéros de téléphone incriminés."
+        ]
+      },
+      "verdict": "FAUX",
+      "verdictLabel": "FAUSSE INFORMATION (TENTATIVE D'ESCROQUERIE)"
+    },
+    {
+      "id": "inv-1792611385711-6002",
+      "code": "#VRF-2026-6002",
+      "title": "« Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+      "description": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+      "sourceType": "WhatsApp citoyen",
+      "urgency": "haute",
+      "urgencyLabel": "⚠️ URGENCE HAUTE • Risque de préjudice financier ou trouble",
+      "timeAgo": "À l’instant",
+      "submittedAt": "2026-10-21T19:36:25.711Z",
+      "submittedBy": "Citoyen Testeur",
+      "assignedTo": "En attente d’attribution",
+      "status": "pre_analysis",
+      "statusLabel": "Analyse automatique disponible (En attente de révision déontologique)",
+      "scope": "National",
+      "previewTag": "Texte WhatsApp",
+      "preAnalysis": {
+        "extractedClaims": [
+          "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456"
+        ],
+        "neutralSummary": "Le signalement porte sur une allégation concernant MINFOPRA. L'affirmation principale rapporte que « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456 ». L'organisme de référence identifié est MINFOPRA — Ministère de la Fonction Publique et de la Réforme Administrative. Les vérificateurs devront confronter ce document aux archives légales.",
+        "detectedEntities": {
+          "ministries": [
+            "MINFOPRA — Ministère de la Fonction Publique et de la Réforme Administrative"
+          ],
+          "locations": [],
+          "dates": [],
+          "individuals": []
+        },
+        "duplicatesFound": [],
+        "urlCheck": {
+          "isReachable": false,
+          "isSuspicious": false,
+          "flags": []
+        },
+        "limitsOfAnalysis": [
+          "Cette synthèse automatique est préliminaire et ne constitue pas un verdict officiel.",
+          "Nécessite la confrontation contradictoire avec l'administration émettrice présumée.",
+          "Scellement légal conditionné par la double signature collégiale d'enquêteurs assermentés."
+        ],
+        "analyzedAt": "2026-10-21T19:36:25.711Z"
+      },
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [
+        {
+          "id": "note-1792611385712",
+          "author": "Système Forensique Automatisé",
+          "content": "Dépouillement initial terminé : 1 affirmation(s) isolée(s), priorité fixée à « ⚠️ URGENCE HAUTE • Risque de préjudice financier ou trouble ».",
+          "createdAt": "2026-10-21T19:36:25.711Z"
+        }
+      ],
+      "aiVerification": {
+        "id": "ai-inv-1792611385711-6002",
+        "status": "resultat_disponible",
+        "statusLabel": "Résultat disponible (Analyse automatisée certifiée)",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Synthèse factuelle et traçabilité achevées.",
+        "startedAt": "2026-10-21T19:36:25.768Z",
+        "elapsedSeconds": 1,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 0,
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2",
+        "workflowStep": "COMPLETED",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-21T19:36:26.943Z",
+        "analyzedClaim": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+        "verdict": "FAUSSE",
+        "canonicalVerdict": "FALSE",
+        "verdictLabel": "FAUSSE INFORMATION (TENTATIVE D'ESCROQUERIE)",
+        "summary": "Cette publication présente les caractéristiques formelles d'une escroquerie par usurpation administrative camerounaise. L'exigence de frais de dossier par virement Mobile Money contrevient formellement aux procédures légales du Trésor Public.",
+        "reasoning_summary": "L'analyse a identifié un motif financier illégal (Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public). Aucun organisme public camerounais ne recrute ou ne perçoit de quittances administratives via des comptes mobiles de particuliers.",
+        "arguments": [
+          "Tutelle institutionnelle identifiée : Ministère de la Fonction Publique et de la Réforme Administrative (MINFOPRA) — Répertoire Officiel de l'État du Cameroun — MINFOPRA",
+          "Tutelle institutionnelle identifiée : Ministère de la Santé Publique (MINSANTE) — Répertoire Officiel de l'État du Cameroun — MINSANTE",
+          "Tutelle institutionnelle identifiée : Ministère de l’Enseignement Supérieur (MINESUP) — Répertoire Officiel de l'État du Cameroun — MINESUP",
+          "Tutelle institutionnelle identifiée : Ministère des Finances & Direction Générale des Impôts (MINFI / DGI) — Répertoire Officiel de l'État du Cameroun — MINFI / DGI",
+          "Tutelle institutionnelle identifiée : Ministère des Postes et Télécommunications (MINPOSTEL) — Répertoire Officiel de l'État du Cameroun — MINPOSTEL",
+          "Tutelle institutionnelle identifiée : Ministère de la Justice, Garde des Sceaux (MINJUSTICE) — Répertoire Officiel de l'État du Cameroun — MINJUSTICE",
+          "Tutelle institutionnelle identifiée : Ministère de l’Administration Territoriale (MINAT) — Répertoire Officiel de l'État du Cameroun — MINAT",
+          "Tutelle institutionnelle identifiée : Ministère du Commerce (MINCOMMERCE) — Répertoire Officiel de l'État du Cameroun — MINCOMMERCE",
+          "Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public — Réglementation financière publique du Cameroun (Loi de Finances)"
+        ],
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Fonction Publique et de la Réforme Administrative (MINFOPRA)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINFOPRA",
+            "sourceUrl": "https://minfopra.gov.cm",
+            "excerpt": "Gestion des carrières des fonctionnaires, ouverture des concours directs (ENAM, Douanes, Cadres).",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Santé Publique (MINSANTE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINSANTE",
+            "sourceUrl": "https://minsante.cm",
+            "excerpt": "Politique sanitaire nationale, alertes épidémiologiques, gratuité des soins ciblés.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de l’Enseignement Supérieur (MINESUP)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINESUP",
+            "sourceUrl": "https://minesup.gov.cm",
+            "excerpt": "Universités d’État, IPES reconnus, homologation des diplômes et bourses de coopération.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère des Finances & Direction Générale des Impôts (MINFI / DGI)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINFI / DGI",
+            "sourceUrl": "https://dgi.minfi.gov.cm",
+            "excerpt": "Fiscalité, tarifs des timbres fiscaux, télédéclaration, régimes fiscaux PME.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère des Postes et Télécommunications (MINPOSTEL)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINPOSTEL",
+            "sourceUrl": "https://minpostel.gov.cm",
+            "excerpt": "Régulation des communications électroniques, inclusion numérique, infrastructures de données souveraines.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Justice, Garde des Sceaux (MINJUSTICE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINJUSTICE",
+            "sourceUrl": "https://minjustice.gov.cm",
+            "excerpt": "Délivrance du casier judiciaire (bulletin n°3), code pénal et répression de la propagation de fausses nouvelles.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de l’Administration Territoriale (MINAT)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINAT",
+            "sourceUrl": "https://minat.gov.cm",
+            "excerpt": "Autorisations des ONG, sécurité territoriale, gouvernorats et préfectures des 10 régions.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère du Commerce (MINCOMMERCE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINCOMMERCE",
+            "sourceUrl": "https://mincommerce.gov.cm",
+            "excerpt": "Plafonds de prix des denrées de première nécessité, homologation des tarifs de transport.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public",
+            "supports": false,
+            "sourceTitle": "Réglementation financière publique du Cameroun (Loi de Finances)",
+            "sourceUrl": "https://www.minfi.gov.cm",
+            "excerpt": "Tout droit d’inscription ou frais de concours officiel fait l’objet d’une quittance émise par le Trésor Public ou d'un compte bancaire officiel du Trésor, jamais de portefeuille mobile personnel.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "name": "MINFOPRA — Mises en garde et communiqués officiels",
+            "title": "MINFOPRA — Mises en garde et communiqués officiels",
+            "url": "https://minfopra.gov.cm",
+            "organizationOrAuthor": "MINFOPRA",
+            "date": "2026",
+            "snippet": "Alerte permanente contre les faux recrutements et faux communiqués circulant sur les réseaux sociaux.",
+            "excerpt": "Alerte permanente contre les faux recrutements et faux communiqués circulant sur les réseaux sociaux.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": "ELEVE",
+        "confidenceScore": 95,
+        "confidenceExplanation": "Indice élevé en raison de la présence explicite d’indicateurs d’extorsion financière par portefeuille mobile non autorisé.",
+        "limits": [
+          "Enquête judiciaire requise pour identifier les titulaires des numéros de téléphone incriminés."
+        ]
+      },
+      "verdict": "FAUX",
+      "verdictLabel": "FAUSSE INFORMATION (TENTATIVE D'ESCROQUERIE)"
+    },
+    {
+      "id": "q-1",
+      "code": "#VRF-7734",
+      "title": "« Prétendue dispense d'épreuve physique au concours de la Police pour les détenteurs de Master 2 »",
+      "description": "Un faux communiqué estampillé DGSN circule massivement sur Facebook et WhatsApp, invitant les postulants à verser une caution de dispense de 30 000 FCFA. Vérification initiée auprès de la cellule DGSN.",
+      "sourceType": "WhatsApp citoyen",
+      "sourceUrl": "https://whatsapp.com/channel/fake-police-cm",
+      "urgency": "haute",
+      "urgencyLabel": "URGENCE HAUTE • Fraude Concours",
+      "timeAgo": "Reçu il y a 22 min",
+      "submittedAt": "2026-10-21T18:33:27.344Z",
+      "submittedBy": "Citoyen Yaoundé (Via WhatsApp)",
+      "assignedTo": "C. Nji (Spécialiste DGSN & Sécurité)",
+      "assignedToId": "user-3",
+      "status": "en_instruction",
+      "statusLabel": "En cours d'instruction (Dépouillement technique)",
+      "scope": "National (Yaoundé / Douala)",
+      "previewImageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAxq9SV5bIS0T2UXHzX0pK8qduPTvPM0BuUtQah4k3qSJoSB5_jqIjw9ZR18YcjGcFK8DpP0fzxPshzHdtxnpELhOGGUYgvU2xzb8QS52dvLIl1XAQ3r2eKLC6Aaoo-JtTxbOygtlZO0CQcWXgw8ENPYGhknvUedfAyVWfOAHtJGtOQCaO7kFgVoHZnMofB4aFyYlYntohr5ZS3i61qRyMIzbqY0PibSr3iuUGwO2d9xqmz6nKVUwmIUg",
+      "previewTag": "JPG • Faux Cachet",
+      "preAnalysis": {
+        "extractedClaims": [
+          "Dispense accordée aux candidats Master 2 pour le concours de la Police",
+          "Obligation de paiement d'une caution de 30 000 FCFA sur compte mobile"
+        ],
+        "neutralSummary": "Le document allègue une modification exceptionnelle des critères d'admissibilité au concours de la Sûreté Nationale (DGSN) assortie de frais administratifs.",
+        "detectedEntities": {
+          "ministries": [
+            "DGSN (Délégation Générale à la Sûreté Nationale)"
+          ],
+          "locations": [
+            "Yaoundé",
+            "Cameroun"
+          ],
+          "dates": [
+            "Session 2025"
+          ],
+          "individuals": [
+            "Délégué Général"
+          ]
+        },
+        "duplicatesFound": [],
+        "urlCheck": {
+          "url": "https://whatsapp.com/channel/fake-police-cm",
+          "isReachable": true,
+          "isSuspicious": true,
+          "flags": [
+            "Canal non officiel",
+            "Paiement Mobile Money réclamé"
+          ]
+        },
+        "limitsOfAnalysis": [
+          "Document non publié au Journal Officiel",
+          "Signature scannée réutilisée depuis un arrêté de 2021"
+        ],
+        "analyzedAt": "2026-10-21T18:35:27.344Z"
+      },
+      "signatures": {
+        "signature1": {
+          "userId": "user-3",
+          "userName": "Chantal Nji",
+          "signedAt": "2026-10-21T18:50:27.344Z",
+          "hash": "555caf109009e4117752a67648527cf5fa7b637f5fcb74d0c7c14af2a6c446ea"
+        },
+        "isSealed": false
+      },
+      "notes": [
+        {
+          "id": "note-1",
+          "author": "C. Nji",
+          "content": "Contact établi avec la cellule communication DGSN. Démenti formel confirmé, aucun arrêté de dispense émis.",
+          "createdAt": "2026-10-21T18:45:27.344Z"
+        }
+      ]
+    },
+    {
+      "id": "q-2",
+      "code": "#VRF-7731",
+      "title": "« Arrêté ministériel fixant le nouveau prix du timbre fiscal à 2 500 FCFA dès le 1er mars »",
+      "description": "Confrontation réalisée avec la Loi de Finances 2025 et le DGI. Le document circulant est une version préliminaire rejetée lors des débats parlementaires. Texte d'explication juridique prêt.",
+      "sourceType": "Signalement Presse Web",
+      "sourceUrl": "https://actu-cameroun-fake.net/timbre-2500",
+      "urgency": "normale",
+      "urgencyLabel": "Acte d'État à authentifier",
+      "timeAgo": "Reçu il y a 1h 10min",
+      "submittedAt": "2026-10-21T17:45:27.344Z",
+      "submittedBy": "Observateur Économique Douala",
+      "assignedTo": "E. Mballa (Vous)",
+      "assignedToId": "user-2",
+      "status": "contre_expertise",
+      "statusLabel": "Relecture collégiale en cours (Signature 1/2 effectuée par C. Nji)",
+      "scope": "National",
+      "previewImageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAMzPh-lQGGwYjT7pB5aBVVA3shWZwgrq84WBR4Fe3oYT9snHgJVd-YHBXZAZD0bEiUhchlpybFgAVpOh9sgvbhJQlsh2_F8OXZo7_etdayFsSjw-JjWZmyvYTHAWdGzzDN1f9V4JrZSuQ5BcAD8-etvd9fjN969DeCpdl5qp_ySx4Q-HSFg6dfDBbZaUMlHeWtBRfSB7b1UXeI7zdXgETEh6q1YzkUYkhD-zsrJejx6FzeZiQxLolHVw",
+      "previewTag": "PDF • Arrêté MinFi",
+      "preAnalysis": {
+        "extractedClaims": [
+          "Hausse du timbre fiscal à 2 500 FCFA à compter du 1er mars 2025",
+          "Application immédiate sur tous les actes d'état civil"
+        ],
+        "neutralSummary": "La publication affirme une révision à la hausse du tarif des timbres fiscaux par décision ministérielle unilatérale.",
+        "detectedEntities": {
+          "ministries": [
+            "MINFI (Ministère des Finances)",
+            "DGI (Direction Générale des Impôts)"
+          ],
+          "locations": [
+            "Yaoundé"
+          ],
+          "dates": [
+            "1er mars 2025"
+          ],
+          "individuals": [
+            "Ministre des Finances"
+          ]
+        },
+        "duplicatesFound": [
+          {
+            "id": "dossier-7729",
+            "code": "#VRF-7729",
+            "title": "Faux communiqué sur la taxe foncière et droits de timbre",
+            "similarity": "84%"
+          }
+        ],
+        "urlCheck": {
+          "url": "https://actu-cameroun-fake.net/timbre-2500",
+          "isReachable": true,
+          "isSuspicious": true,
+          "flags": [
+            "Domaine d'imitation non institutionnel"
+          ]
+        },
+        "limitsOfAnalysis": [
+          "Projet de loi amendé en commission parlementaire",
+          "Tarif officiel en vigueur maintenu selon la Loi de Finances promulguée"
+        ],
+        "analyzedAt": "2026-10-21T17:50:27.344Z"
+      },
+      "signatures": {
+        "signature1": {
+          "userId": "user-3",
+          "userName": "Chantal Nji",
+          "signedAt": "2026-10-21T18:15:27.344Z",
+          "hash": "b1c99fd98b3f7cf287aacae19a499cd0802a1bcd9c388c67eb2417044aaa5706"
+        },
+        "isSealed": false
+      },
+      "notes": [
+        {
+          "id": "note-2",
+          "author": "E. Mballa",
+          "content": "Confrontation effectuée avec le texte définitif de la Loi de Finances 2025. Le tarif légal reste inchangé.",
+          "createdAt": "2026-10-21T18:25:27.344Z"
+        }
+      ]
+    },
+    {
+      "id": "q-3",
+      "code": "#VRF-7728",
+      "title": "« Vidéo virale d'affrontements armés présentée comme survenue à Bamenda hier soir »",
+      "description": "Découpage en images-clés : la séquence originale a été tournée en 2021 dans un autre pays de la sous-région. Recherche géolocalisée par satellite en cours de finalisation pour certifier les repères visuels.",
+      "sourceType": "TikTok / X (Twitter)",
+      "urgency": "haute",
+      "urgencyLabel": "Désinformation visuelle / Hors contexte",
+      "timeAgo": "Reçu il y a 3h",
+      "submittedAt": "2026-10-21T15:55:27.344Z",
+      "submittedBy": "Veilleur Réseaux Sociaux",
+      "assignedTo": "Cellule OSINT Yaoundé",
+      "assignedToId": "user-3",
+      "status": "en_instruction",
+      "statusLabel": "Analyse forensique InVID & Geolocation OSINT",
+      "scope": "Nord-Ouest & Réseaux Sociaux",
+      "previewImageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAkBtu3huaNyUNyZVUwJnYFoohGmv084JOKfZPVD0rdltdTYHSyg75k77cqO-2c5tPgxiytYiKW4DaaZwX3n4AQ_QblEUj_S7Psnz4AUIlx4ib3RFf8paDV--iq6_jhQiyW3kLmyWdWh8hGPPTVX8MZaqSJpU4TChouP-NP7mnY8Q70pGMVpOU6AkOeqlD4jwUYA98hSLs50QLnXN4D0k9K9BYa9Ms4x2-BQfBNRXJJT7kLJ2IgvKBgZQ",
+      "previewTag": "MP4 • Forensique InVID",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": []
+    },
+    {
+      "id": "q-4",
+      "code": "#VRF-7725",
+      "title": "« Bourses d'excellence universitaire attribuées par tirage au sort sur une fausse page Minesup »",
+      "description": "Démenti formel recueilli auprès du Ministère de l'Enseignement Supérieur (MINESUP). Deux relectures terminées. Fiche rédigée en FR et EN selon le standard IFCN.",
+      "sourceType": "Page sponsorisée Facebook",
+      "urgency": "normale",
+      "urgencyLabel": "Verdict FAUX validé",
+      "timeAgo": "Reçu il y a 5h",
+      "submittedAt": "2026-10-21T13:55:27.344Z",
+      "submittedBy": "Étudiant Université de Douala",
+      "assignedTo": "Cellule Vérification Académique",
+      "assignedToId": "user-2",
+      "status": "completed",
+      "statusLabel": "Prêt pour publication immédiate & Scellement cryptographique",
+      "scope": "National (Universités d’État)",
+      "previewImageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuABUcgGdouL952t-aHtaDtSQL1lBETGzs6dsaRdvVWu49vH-ejuKjWcE0jX7J9qTXFfKdZeXo03AEGYGE9K_Y4kZntIdV_AAmE6-jWS2V_motsKlGeFWpanXELap6b0N5N4SymjjCyGQE5ATO_WCAViefbrC45ejBxTx5ZKOrK_aFnsZ0dAfwOIYbdMuxrRSXIFCi_qsuMuXUgD1dgYWT0gerw_eSVvKouZL3prlj3fpDyDjdP1muw_NQ",
+      "previewTag": "URL & Phishing",
+      "signatures": {
+        "signature1": {
+          "userId": "user-3",
+          "userName": "Chantal Nji",
+          "signedAt": "2026-10-21T16:55:27.344Z",
+          "hash": "32227ff4405a969fa3d6e74ee844197010a15c964d34ebe87b8d3a7d087ba86d"
+        },
+        "signature2": {
+          "userId": "user-2",
+          "userName": "Emmanuel Mballa",
+          "signedAt": "2026-10-21T18:10:27.344Z",
+          "hash": "32878a3fda5bee40a25091b6b3a8c4ce6da13ba16a8f3c8918a6d2f18cd13da1"
+        },
+        "isSealed": true,
+        "sealedHash": "8f3b9a7c2901be332415abfa8912e75619a0bc41289fe5401923ab81765244c1",
+        "sealedAt": "2026-10-21T18:15:27.344Z"
+      },
+      "notes": [
+        {
+          "id": "note-3",
+          "author": "E. Mballa",
+          "content": "Fiche révisée et signée collégialement. Scellement WORM effectué.",
+          "createdAt": "2026-10-21T18:13:27.344Z"
+        }
+      ],
+      "verdict": "FAUX",
+      "verdictLabel": "FAUX ET TENTATIVE D’ESCROQUERIE"
+    },
+    {
+      "id": "test-sub-1792610080999",
+      "code": "#VRF-2026-TEST7859",
+      "claim": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "category": "Education & Examens",
+      "sourceChannel": "web",
+      "sourceUrl": "https://minesec.gov.cm/communique-2026",
+      "submittedBy": "Citoyen Test",
+      "submittedAt": "2026-10-21T19:14:40.999Z",
+      "priority": "normale",
+      "status": "triage",
+      "statusLabel": "En attente de traitement",
+      "evidenceItems": [],
+      "verdict": "EN_COURS",
+      "verdictLabel": "En attente",
+      "verificationCount": 1,
+      "crossExaminations": [],
+      "timeline": []
+    },
+    {
+      "id": "test-queue-1792610081000",
+      "code": "#VRF-2026-ASYNC4885",
+      "claim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "category": "Politique & Décrets",
+      "sourceChannel": "whatsapp",
+      "submittedBy": "Anonyme 237",
+      "submittedAt": "2026-10-21T19:14:41.000Z",
+      "priority": "haute",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "evidenceItems": [],
+      "verdict": "EN_COURS",
+      "verdictLabel": "En attente",
+      "verificationCount": 1,
+      "crossExaminations": [],
+      "timeline": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792610081000",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Synthèse factuelle et traçabilité déontologique achevées.",
+        "startedAt": "2026-10-21T19:14:41.000Z",
+        "elapsedSeconds": 2,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "EN_INSTRUCTION_TERRAIN",
+        "retryCount": 0,
+        "modelProvider": "Vérif 237 Institutional Engine",
+        "modelName": "cameroon-grounding-v2",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-21T19:14:43.391Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT • Informations insuffisantes",
+        "summary": "Les éléments fournis ne comportent pas d'ancrage documentaire, de référence légale ni de source primaire identifiable pour statuer formellement.",
+        "arguments": [
+          "Aucune institution publique camerounaise directement mentionnée.",
+          "Absence de lien vérifiable ou de document officiel joint.",
+          "Contenu assimilable à une rumeur orale ou un témoignage anonyme non corroboré."
+        ],
+        "sources": [
+          {
+            "name": "Journal Officiel de la République du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "snippet": "Base de données centrale des lois, décrets et arrêtés de la République.",
+            "isOfficial": true,
+            "reliability": "reference_documentaire"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 35,
+        "confidenceExplanation": "La déontologie de Vérif 237 interdit de conclure sans élément de preuve primaire ou contradiction avérée.",
+        "limits": [
+          "Le citoyen est invité à fournir une capture d'écran nette, une date précise ou un lien de publication.",
+          "Dossier maintenu ouvert dans la veille citoyenne."
+        ]
+      }
+    },
+    {
+      "id": "test-sub-1792610178885",
+      "code": "#VRF-2026-TEST6718",
+      "claim": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "category": "Education & Examens",
+      "sourceChannel": "web",
+      "sourceUrl": "https://minesec.gov.cm/communique-2026",
+      "submittedBy": "Citoyen Test",
+      "submittedAt": "2026-10-21T19:16:18.885Z",
+      "priority": "normale",
+      "status": "triage",
+      "statusLabel": "En attente de traitement",
+      "evidenceItems": [],
+      "verdict": "EN_COURS",
+      "verdictLabel": "En attente",
+      "verificationCount": 1,
+      "crossExaminations": [],
+      "timeline": []
+    },
+    {
+      "id": "test-queue-1792610178886",
+      "code": "#VRF-2026-ASYNC1680",
+      "claim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "category": "Politique & Décrets",
+      "sourceChannel": "whatsapp",
+      "submittedBy": "Anonyme 237",
+      "submittedAt": "2026-10-21T19:16:18.886Z",
+      "priority": "haute",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "evidenceItems": [],
+      "verdict": "EN_COURS",
+      "verdictLabel": "En attente",
+      "verificationCount": 1,
+      "crossExaminations": [],
+      "timeline": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792610178886",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Synthèse factuelle et traçabilité déontologique achevées.",
+        "startedAt": "2026-10-21T19:16:18.886Z",
+        "elapsedSeconds": 2,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "EN_INSTRUCTION_TERRAIN",
+        "retryCount": 0,
+        "modelProvider": "Vérif 237 Institutional Engine",
+        "modelName": "cameroon-grounding-v2",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-21T19:16:21.028Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT • Informations insuffisantes",
+        "summary": "Les éléments fournis ne comportent pas d'ancrage documentaire, de référence légale ni de source primaire identifiable pour statuer formellement.",
+        "arguments": [
+          "Aucune institution publique camerounaise directement mentionnée.",
+          "Absence de lien vérifiable ou de document officiel joint.",
+          "Contenu assimilable à une rumeur orale ou un témoignage anonyme non corroboré."
+        ],
+        "sources": [
+          {
+            "name": "Journal Officiel de la République du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "snippet": "Base de données centrale des lois, décrets et arrêtés de la République.",
+            "isOfficial": true,
+            "reliability": "reference_documentaire"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 35,
+        "confidenceExplanation": "La déontologie de Vérif 237 interdit de conclure sans élément de preuve primaire ou contradiction avérée.",
+        "limits": [
+          "Le citoyen est invité à fournir une capture d'écran nette, une date précise ou un lien de publication.",
+          "Dossier maintenu ouvert dans la veille citoyenne."
+        ]
+      }
+    },
+    {
+      "id": "test-sub-1792610237424",
+      "code": "#VRF-2026-TEST7967",
+      "claim": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "category": "Education & Examens",
+      "sourceChannel": "web",
+      "sourceUrl": "https://minesec.gov.cm/communique-2026",
+      "submittedBy": "Citoyen Test",
+      "submittedAt": "2026-10-21T19:17:17.424Z",
+      "priority": "normale",
+      "status": "triage",
+      "statusLabel": "En attente de traitement",
+      "evidenceItems": [],
+      "verdict": "EN_COURS",
+      "verdictLabel": "En attente",
+      "verificationCount": 1,
+      "crossExaminations": [],
+      "timeline": []
+    },
+    {
+      "id": "test-queue-1792610237426",
+      "code": "#VRF-2026-ASYNC3722",
+      "claim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "category": "Politique & Décrets",
+      "sourceChannel": "whatsapp",
+      "submittedBy": "Anonyme 237",
+      "submittedAt": "2026-10-21T19:17:17.426Z",
+      "priority": "haute",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "evidenceItems": [],
+      "verdict": "EN_COURS",
+      "verdictLabel": "En attente",
+      "verificationCount": 1,
+      "crossExaminations": [],
+      "timeline": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792610237426",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Synthèse factuelle et traçabilité déontologique achevées.",
+        "startedAt": "2026-10-21T19:17:17.426Z",
+        "elapsedSeconds": 4,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "EN_INSTRUCTION_TERRAIN",
+        "retryCount": 0,
+        "modelProvider": "Vérif 237 Institutional Engine",
+        "modelName": "cameroon-grounding-v2",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-21T19:17:21.413Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT • Informations insuffisantes",
+        "summary": "Les éléments fournis ne comportent pas d'ancrage documentaire, de référence légale ni de source primaire identifiable pour statuer formellement.",
+        "arguments": [
+          "Aucune institution publique camerounaise directement mentionnée.",
+          "Absence de lien vérifiable ou de document officiel joint.",
+          "Contenu assimilable à une rumeur orale ou un témoignage anonyme non corroboré."
+        ],
+        "sources": [
+          {
+            "name": "Journal Officiel de la République du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "snippet": "Base de données centrale des lois, décrets et arrêtés de la République.",
+            "isOfficial": true,
+            "reliability": "reference_documentaire"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 35,
+        "confidenceExplanation": "La déontologie de Vérif 237 interdit de conclure sans élément de preuve primaire ou contradiction avérée.",
+        "limits": [
+          "Le citoyen est invité à fournir une capture d'écran nette, une date précise ou un lien de publication.",
+          "Dossier maintenu ouvert dans la veille citoyenne."
+        ]
+      }
+    },
+    {
+      "id": "test-sub-1792610355048",
+      "code": "#VRF-2026-TEST6703",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:19:15.048Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792610355056",
+      "code": "#VRF-2026-ASYNC1812",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:19:15.056Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "Enregistré dans la file accélérée",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792610355056",
+        "status": "verification_sources",
+        "statusLabel": "Comparaison des preuves et détection des fraudes",
+        "progressStep": "COMPARAISON_PREUVES",
+        "stepDescription": "Comparaison contradictoire des preuves et contrôle des quittances légales...",
+        "startedAt": "2026-10-21T19:19:15.056Z",
+        "elapsedSeconds": 1,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "EN_ATTENTE_REVUE",
+        "retryCount": 0,
+        "modelProvider": "Google Gemini & Observatoire 237",
+        "modelName": "gemini-3.8-flash",
+        "estimatedRemainingSeconds": 10
+      }
+    },
+    {
+      "id": "test-sub-1792610447159",
+      "code": "#VRF-2026-TEST2666",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:20:47.159Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792610447160",
+      "code": "#VRF-2026-ASYNC3734",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:20:47.160Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792610447160",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Synthèse factuelle et traçabilité déontologique achevées.",
+        "startedAt": "2026-10-21T19:20:47.160Z",
+        "elapsedSeconds": 11,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "EN_INSTRUCTION_TERRAIN",
+        "retryCount": 0,
+        "modelProvider": "Vérif 237 Institutional Engine",
+        "modelName": "cameroon-grounding-v2",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-21T19:20:58.576Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT • Informations insuffisantes",
+        "summary": "Les éléments fournis ne comportent pas d'ancrage documentaire, de référence légale ni de source primaire identifiable pour statuer formellement.",
+        "arguments": [
+          "Aucune institution publique camerounaise directement mentionnée.",
+          "Absence de lien vérifiable ou de document officiel joint.",
+          "Contenu assimilable à une rumeur orale ou un témoignage anonyme non corroboré."
+        ],
+        "sources": [
+          {
+            "name": "Journal Officiel de la République du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "snippet": "Base de données centrale des lois, décrets et arrêtés de la République.",
+            "isOfficial": true,
+            "reliability": "reference_documentaire"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 35,
+        "confidenceExplanation": "La déontologie de Vérif 237 interdit de conclure sans élément de preuve primaire ou contradiction avérée.",
+        "limits": [
+          "Le citoyen est invité à fournir une capture d'écran nette, une date précise ou un lien de publication.",
+          "Dossier maintenu ouvert dans la veille citoyenne."
+        ]
+      }
+    },
+    {
+      "id": "test-sub-1792610611386",
+      "code": "#VRF-2026-TEST8411",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:23:31.386Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792610611387",
+      "code": "#VRF-2026-ASYNC5346",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:23:31.387Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792610611387",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Synthèse factuelle et traçabilité déontologique achevées.",
+        "startedAt": "2026-10-21T19:23:31.387Z",
+        "elapsedSeconds": 2,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "EN_INSTRUCTION_TERRAIN",
+        "retryCount": 0,
+        "modelProvider": "Vérif 237 Institutional Engine",
+        "modelName": "cameroon-grounding-v2",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-21T19:23:33.061Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT • Informations insuffisantes",
+        "summary": "Les éléments fournis ne comportent pas d'ancrage documentaire, de référence légale ni de source primaire identifiable pour statuer formellement.",
+        "arguments": [
+          "Aucune institution publique camerounaise directement mentionnée.",
+          "Absence de lien vérifiable ou de document officiel joint.",
+          "Contenu assimilable à une rumeur orale ou un témoignage anonyme non corroboré."
+        ],
+        "sources": [
+          {
+            "name": "Journal Officiel de la République du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "snippet": "Base de données centrale des lois, décrets et arrêtés de la République.",
+            "isOfficial": true,
+            "reliability": "reference_documentaire"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 35,
+        "confidenceExplanation": "La déontologie de Vérif 237 interdit de conclure sans élément de preuve primaire ou contradiction avérée.",
+        "limits": [
+          "Le citoyen est invité à fournir une capture d'écran nette, une date précise ou un lien de publication.",
+          "Dossier maintenu ouvert dans la veille citoyenne."
+        ]
+      }
+    },
+    {
+      "id": "test-sub-1792611129362",
+      "code": "#VRF-2026-TEST9809",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:32:09.362Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792611129363",
+      "code": "#VRF-2026-ASYNC9507",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:32:09.364Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "Enregistré dans la file accélérée",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792611129363",
+        "status": "echec_temporaire",
+        "statusLabel": "Échec temporaire du traitement automatisé",
+        "progressStep": "EN_ATTENTE",
+        "stepDescription": "Une anomalie temporaire est survenue. Le dossier a été orienté vers l'instruction manuelle.",
+        "startedAt": "2026-10-21T19:32:09.364Z",
+        "elapsedSeconds": 5,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 3,
+        "modelProvider": "Vérif237 AI Engine & AgNES",
+        "modelName": "hybrid-verification-v2",
+        "workflowStep": "ERROR",
+        "estimatedRemainingSeconds": 0,
+        "rawError": "Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "id": "test-sub-1792611148777",
+      "code": "#VRF-2026-TEST6486",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:32:28.777Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792611148779",
+      "code": "#VRF-2026-ASYNC5289",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:32:28.779Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "Enregistré dans la file accélérée",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792611148779",
+        "status": "echec_temporaire",
+        "statusLabel": "Échec temporaire du traitement automatisé",
+        "progressStep": "EN_ATTENTE",
+        "stepDescription": "Une anomalie temporaire est survenue. Le dossier a été orienté vers l'instruction manuelle.",
+        "startedAt": "2026-10-21T19:32:28.779Z",
+        "elapsedSeconds": 5,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 3,
+        "modelProvider": "Vérif237 AI Engine & AgNES",
+        "modelName": "hybrid-verification-v2",
+        "workflowStep": "ERROR",
+        "estimatedRemainingSeconds": 0,
+        "rawError": "Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "id": "test-sub-1792611169056",
+      "code": "#VRF-2026-TEST2716",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:32:49.057Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792611169058",
+      "code": "#VRF-2026-ASYNC7802",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:32:49.058Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792611169058",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Preuves documentaires incomplètes. Dossier orienté vers l'instruction humaine.",
+        "startedAt": "2026-10-21T19:32:49.058Z",
+        "elapsedSeconds": 1,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 0,
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2",
+        "workflowStep": "REQUIRES_HUMAN_REVIEW",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-21T19:32:50.253Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "canonicalVerdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "arguments": [
+          "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC) — Répertoire Officiel de l'État du Cameroun — OBC"
+        ],
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisme public compétent : Office du Baccalauréat du Cameroun",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Portail des Services du Premier Ministère du Cameroun",
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "snippet": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 50,
+        "confidenceExplanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché.",
+        "limits": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ]
+      }
+    },
+    {
+      "id": "test-sub-1792611248700",
+      "code": "#VRF-2026-TEST8254",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:34:08.700Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792611248701",
+      "code": "#VRF-2026-ASYNC4422",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:34:08.701Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792611248701",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Preuves documentaires incomplètes. Dossier orienté vers l'instruction humaine.",
+        "startedAt": "2026-10-21T19:34:08.701Z",
+        "elapsedSeconds": 2,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 0,
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2",
+        "workflowStep": "REQUIRES_HUMAN_REVIEW",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-21T19:34:10.900Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "canonicalVerdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "arguments": [
+          "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC) — Répertoire Officiel de l'État du Cameroun — OBC"
+        ],
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisme public compétent : Office du Baccalauréat du Cameroun",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Portail des Services du Premier Ministère du Cameroun",
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "snippet": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 50,
+        "confidenceExplanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché.",
+        "limits": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ]
+      }
+    },
+    {
+      "id": "test-sub-1792611421202",
+      "code": "#VRF-2026-TEST7861",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:37:01.202Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792611421203",
+      "code": "#VRF-2026-ASYNC5263",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-21T19:37:01.203Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792611421203",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Preuves documentaires incomplètes. Dossier orienté vers l'instruction humaine.",
+        "startedAt": "2026-10-21T19:37:01.203Z",
+        "elapsedSeconds": 1,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 0,
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2",
+        "workflowStep": "REQUIRES_HUMAN_REVIEW",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-21T19:37:02.375Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "canonicalVerdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "arguments": [
+          "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC) — Répertoire Officiel de l'État du Cameroun — OBC"
+        ],
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisation du Baccalauréat de l’enseignement secondaire général et technique francophone.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Portail des Services du Premier Ministère du Cameroun",
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "snippet": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 50,
+        "confidenceExplanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché.",
+        "limits": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ]
+      }
+    },
+    {
+      "id": "test-sub-1792662614481",
+      "code": "#VRF-2026-TEST6575",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-22T09:50:14.481Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792662614482",
+      "code": "#VRF-2026-ASYNC1044",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-22T09:50:14.482Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792662614482",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Preuves documentaires incomplètes. Dossier orienté vers l'instruction humaine.",
+        "startedAt": "2026-10-22T09:50:14.482Z",
+        "elapsedSeconds": 2,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 0,
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2",
+        "workflowStep": "REQUIRES_HUMAN_REVIEW",
+        "estimatedRemainingSeconds": 0,
+        "completedAt": "2026-10-22T09:50:15.988Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "canonicalVerdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "arguments": [
+          "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC) — Répertoire Officiel de l'État du Cameroun — OBC"
+        ],
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisation du Baccalauréat de l’enseignement secondaire général et technique francophone.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Portail des Services du Premier Ministère du Cameroun",
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "snippet": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 50,
+        "confidenceExplanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché.",
+        "limits": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ]
+      }
+    },
+    {
+      "id": "test-sub-1792938264374",
+      "code": "#VRF-2026-TEST1585",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-25T14:24:24.374Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792938264375",
+      "code": "#VRF-2026-ASYNC2153",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-25T14:24:24.375Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792938264375",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Preuves documentaires incomplètes. Dossier orienté vers l'instruction humaine.",
+        "startedAt": "2026-10-25T14:24:24.375Z",
+        "elapsedSeconds": 3,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 0,
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2",
+        "workflowStep": "REQUIRES_HUMAN_REVIEW",
+        "estimatedRemainingSeconds": 0,
+        "stepStatuses": {
+          "information_recue": "completed",
+          "analyse_initiale": "completed",
+          "recherche_sources": "completed",
+          "analyse_preuves": "completed",
+          "evaluation_ia": "completed",
+          "validation": "completed",
+          "resultat_disponible": "completed"
+        },
+        "stepHistory": [
+          {
+            "step": "information_recue",
+            "label": "Information reçue",
+            "timestamp": "2026-10-25T14:24:24.375Z",
+            "status": "completed",
+            "message": "L'information soumise a été enregistrée avec succès."
+          },
+          {
+            "step": "analyse_initiale",
+            "label": "Analyse initiale",
+            "timestamp": "2026-10-25T14:24:24.375Z",
+            "status": "in_progress",
+            "message": "Extraction des affirmations et des éléments à examiner."
+          },
+          {
+            "step": "analyse_initiale",
+            "label": "Analyse initiale",
+            "timestamp": "2026-10-25T14:24:24.390Z",
+            "status": "in_progress",
+            "message": "Extraction des affirmations et des faits vérifiables."
+          },
+          {
+            "step": "analyse_initiale",
+            "label": "Analyse initiale",
+            "timestamp": "2026-10-25T14:24:24.995Z",
+            "status": "completed",
+            "message": "Faits et entités identifiés avec succès."
+          },
+          {
+            "step": "recherche_sources",
+            "label": "Recherche de sources",
+            "timestamp": "2026-10-25T14:24:24.995Z",
+            "status": "in_progress",
+            "message": "Consultation des sources Web accessibles et de la base interne camerounaise."
+          },
+          {
+            "step": "recherche_sources",
+            "label": "Recherche de sources",
+            "timestamp": "2026-10-25T14:24:25.700Z",
+            "status": "completed",
+            "message": "Sources documentaires et portails officiels consultés."
+          },
+          {
+            "step": "analyse_preuves",
+            "label": "Analyse des preuves",
+            "timestamp": "2026-10-25T14:24:25.700Z",
+            "status": "in_progress",
+            "message": "Comparaison des informations, dates, sources et contradictions."
+          },
+          {
+            "step": "validation",
+            "label": "Validation",
+            "timestamp": "2026-10-25T14:24:27.094Z",
+            "status": "completed",
+            "message": "Orientation vers instruction collégiale humaine requise."
+          },
+          {
+            "step": "resultat_disponible",
+            "label": "Résultat disponible",
+            "timestamp": "2026-10-25T14:24:27.094Z",
+            "status": "completed",
+            "message": "Conclusions préliminaires et transmission aux vérificateurs."
+          }
+        ],
+        "completedAt": "2026-10-25T14:24:27.094Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "canonicalVerdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "arguments": [
+          "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC) — Répertoire Officiel de l'État du Cameroun — OBC"
+        ],
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisation du Baccalauréat de l’enseignement secondaire général et technique francophone.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Portail des Services du Premier Ministère du Cameroun",
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "snippet": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 50,
+        "confidenceExplanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché.",
+        "limits": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ]
+      }
+    }
+  ],
+  "doubleSignatures": [
+    {
+      "id": "ds-1",
+      "targetType": "dossier",
+      "targetId": "q-2",
+      "targetTitle": "Dossier #VRF-7731 (Arrêté timbre fiscal 2 500 FCFA)",
+      "requestedBy": "Chantal Nji (Expert Forensique)",
+      "requestedAt": "2026-10-21T18:15:27.344Z",
+      "status": "en_attente_sig2",
+      "signature1": {
+        "userId": "user-3",
+        "userName": "Chantal Nji",
+        "signedAt": "2026-10-21T18:15:27.344Z",
+        "signatureHash": "b1c99fd98b3f7cf287aacae19a499cd0802a1bcd9c388c67eb2417044aaa5706"
+      }
+    },
+    {
+      "id": "ds-2",
+      "targetType": "system_parameter",
+      "targetId": "sp-1",
+      "targetTitle": "Abaissement du seuil de détection ELA à 85%",
+      "requestedBy": "Dr. François Kamga (Super-Admin)",
+      "requestedAt": "2026-10-21T16:55:27.344Z",
+      "status": "en_attente_sig1"
+    }
+  ],
+  "integrityAlerts": [
+    {
+      "id": "alt-1",
+      "level": "INFO",
+      "type": "CHAINE_HASH",
+      "title": "Parité de l’arbre cryptographique vérifiée",
+      "description": "Audit périodique d’intégrité exécuté avec succès : 5 blocs consécutifs vérifiés, racine Merkle concordante avec le coffre S3.",
+      "detectedAt": "2026-10-21T18:40:27.344Z",
+      "status": "RESOLUE",
+      "resolvedAt": "2026-10-21T18:41:27.344Z",
+      "resolvedBy": "Système WORM Automatisé",
+      "resolutionNotes": "Contrôle automatique réussi, aucun écart de hachage."
+    }
+  ],
+  "systemSettings": {
+    "sessionTimeoutMinutes": 60,
+    "requireDoubleSignature": true,
+    "autoAnalysisStrictness": "standard",
+    "maxLoginAttempts": 5,
+    "rsaKeyStatus": "RSA-4096 Actif (HSM Yaoundé MINPOSTEL)",
+    "lastBackupAt": "2026-10-21T14:55:27.344Z",
+    "activeHSMNode": "Nœud 1 (MINPOSTEL DataCenter Yaoundé)"
+  },
+  "apiKeys": [
+    {
+      "id": "key-1",
+      "name": "Vérif237 Public Feed API",
+      "service": "Flux RSS / Widget Médias Partenaires",
+      "prefix": "vf237_live_",
+      "maskedKey": "vf237_live_9a8f••••••••••••••••4b12",
+      "hashedSecret": "3cf17446dbbc9772c7521ee7c835aefba31bb78740f349b765e32f5c9b02b8b8",
+      "createdAt": "2024-06-01T10:00:00Z",
+      "lastUsedAt": "2026-10-21T18:37:27.344Z",
+      "status": "active",
+      "permissions": [
+        "read:verifications",
+        "read:official_acts"
+      ]
+    },
+    {
+      "id": "key-2",
+      "name": "Passerelle MINCOM / MINPOSTEL",
+      "service": "Acheminement requêtes institutionnelles",
+      "prefix": "vf237_inst_",
+      "maskedKey": "vf237_inst_77c1••••••••••••••••99ef",
+      "hashedSecret": "337f884d1d5694234336acc9d21f9ec1068a5d91c3fcfb70f25a921c0d62d58c",
+      "createdAt": "2024-08-15T14:30:00Z",
+      "lastUsedAt": "2026-10-21T15:55:27.344Z",
+      "status": "active",
+      "permissions": [
+        "read:all",
+        "submit:official_decrees"
+      ]
+    }
+  ],
+  "verificationTasks": [
+    {
+      "id": "task-test-queue-1792611129363",
+      "investigationId": "test-queue-1792611129363",
+      "code": "#VRF-2026-ASYNC9507",
+      "input": {
+        "id": "test-queue-1792611129363",
+        "code": "#VRF-2026-ASYNC9507",
+        "text": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "sourceType": "WhatsApp"
+      },
+      "workflowStep": "ERROR",
+      "createdAt": "2026-10-21T19:32:09.364Z",
+      "updatedAt": "2026-10-21T19:32:14.517Z",
+      "retryCount": 0
+    },
+    {
+      "id": "task-test-queue-1792611148779",
+      "investigationId": "test-queue-1792611148779",
+      "code": "#VRF-2026-ASYNC5289",
+      "input": {
+        "id": "test-queue-1792611148779",
+        "code": "#VRF-2026-ASYNC5289",
+        "text": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "sourceType": "WhatsApp"
+      },
+      "workflowStep": "ERROR",
+      "createdAt": "2026-10-21T19:32:28.779Z",
+      "updatedAt": "2026-10-21T19:32:33.912Z",
+      "retryCount": 0
+    },
+    {
+      "id": "task-test-queue-1792611169058",
+      "investigationId": "test-queue-1792611169058",
+      "code": "#VRF-2026-ASYNC7802",
+      "input": {
+        "id": "test-queue-1792611169058",
+        "code": "#VRF-2026-ASYNC7802",
+        "text": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "sourceType": "WhatsApp"
+      },
+      "workflowStep": "REQUIRES_HUMAN_REVIEW",
+      "createdAt": "2026-10-21T19:32:49.058Z",
+      "updatedAt": "2026-10-21T19:32:50.255Z",
+      "retryCount": 0,
+      "output": {
+        "claim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisme public compétent : Office du Baccalauréat du Cameroun",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": {
+          "score": 50,
+          "level": "LOW",
+          "explanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché."
+        },
+        "limitations": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ],
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "createdAt": "2026-10-21T19:32:49.979Z",
+        "completedAt": "2026-10-21T19:32:50.253Z",
+        "elapsedSeconds": 0,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "workflowStep": "COMPLETED",
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2"
+      }
+    },
+    {
+      "id": "task-test-p1",
+      "investigationId": "inv-test-p1",
+      "code": "#VRF-P1",
+      "input": {
+        "id": "inv-test-p1",
+        "code": "#VRF-P1",
+        "text": "Allégation de test persistance"
+      },
+      "workflowStep": "COMPLETED",
+      "createdAt": "2026-10-25T14:24:23.341Z",
+      "updatedAt": "2026-10-25T14:24:23.343Z",
+      "retryCount": 0
+    },
+    {
+      "id": "task-test-queue-1792611248701",
+      "investigationId": "test-queue-1792611248701",
+      "code": "#VRF-2026-ASYNC4422",
+      "input": {
+        "id": "test-queue-1792611248701",
+        "code": "#VRF-2026-ASYNC4422",
+        "text": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "sourceType": "WhatsApp"
+      },
+      "workflowStep": "REQUIRES_HUMAN_REVIEW",
+      "createdAt": "2026-10-21T19:34:08.701Z",
+      "updatedAt": "2026-10-21T19:34:10.902Z",
+      "retryCount": 0,
+      "output": {
+        "claim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisme public compétent : Office du Baccalauréat du Cameroun",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": {
+          "score": 50,
+          "level": "LOW",
+          "explanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché."
+        },
+        "limitations": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ],
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "createdAt": "2026-10-21T19:34:09.623Z",
+        "completedAt": "2026-10-21T19:34:10.900Z",
+        "elapsedSeconds": 1,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "workflowStep": "COMPLETED",
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2"
+      }
+    },
+    {
+      "id": "task-inv-1792611385711-6002",
+      "investigationId": "inv-1792611385711-6002",
+      "code": "#VRF-2026-6002",
+      "input": {
+        "id": "inv-1792611385711-6002",
+        "code": "#VRF-2026-6002",
+        "text": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456"
+      },
+      "workflowStep": "COMPLETED",
+      "createdAt": "2026-10-21T19:36:25.768Z",
+      "updatedAt": "2026-10-21T19:36:26.947Z",
+      "retryCount": 0,
+      "output": {
+        "claim": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+        "verdict": "FALSE",
+        "verdictLabel": "FAUSSE INFORMATION (TENTATIVE D'ESCROQUERIE)",
+        "summary": "Cette publication présente les caractéristiques formelles d'une escroquerie par usurpation administrative camerounaise. L'exigence de frais de dossier par virement Mobile Money contrevient formellement aux procédures légales du Trésor Public.",
+        "reasoning_summary": "L'analyse a identifié un motif financier illégal (Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public). Aucun organisme public camerounais ne recrute ou ne perçoit de quittances administratives via des comptes mobiles de particuliers.",
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Fonction Publique et de la Réforme Administrative (MINFOPRA)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINFOPRA",
+            "sourceUrl": "https://minfopra.gov.cm",
+            "excerpt": "Gestion des carrières des fonctionnaires, ouverture des concours directs (ENAM, Douanes, Cadres).",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Santé Publique (MINSANTE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINSANTE",
+            "sourceUrl": "https://minsante.cm",
+            "excerpt": "Politique sanitaire nationale, alertes épidémiologiques, gratuité des soins ciblés.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de l’Enseignement Supérieur (MINESUP)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINESUP",
+            "sourceUrl": "https://minesup.gov.cm",
+            "excerpt": "Universités d’État, IPES reconnus, homologation des diplômes et bourses de coopération.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère des Finances & Direction Générale des Impôts (MINFI / DGI)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINFI / DGI",
+            "sourceUrl": "https://dgi.minfi.gov.cm",
+            "excerpt": "Fiscalité, tarifs des timbres fiscaux, télédéclaration, régimes fiscaux PME.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère des Postes et Télécommunications (MINPOSTEL)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINPOSTEL",
+            "sourceUrl": "https://minpostel.gov.cm",
+            "excerpt": "Régulation des communications électroniques, inclusion numérique, infrastructures de données souveraines.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Justice, Garde des Sceaux (MINJUSTICE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINJUSTICE",
+            "sourceUrl": "https://minjustice.gov.cm",
+            "excerpt": "Délivrance du casier judiciaire (bulletin n°3), code pénal et répression de la propagation de fausses nouvelles.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de l’Administration Territoriale (MINAT)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINAT",
+            "sourceUrl": "https://minat.gov.cm",
+            "excerpt": "Autorisations des ONG, sécurité territoriale, gouvernorats et préfectures des 10 régions.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère du Commerce (MINCOMMERCE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINCOMMERCE",
+            "sourceUrl": "https://mincommerce.gov.cm",
+            "excerpt": "Plafonds de prix des denrées de première nécessité, homologation des tarifs de transport.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public",
+            "supports": false,
+            "sourceTitle": "Réglementation financière publique du Cameroun (Loi de Finances)",
+            "sourceUrl": "https://www.minfi.gov.cm",
+            "excerpt": "Tout droit d’inscription ou frais de concours officiel fait l’objet d’une quittance émise par le Trésor Public ou d'un compte bancaire officiel du Trésor, jamais de portefeuille mobile personnel.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "title": "MINFOPRA — Mises en garde et communiqués officiels",
+            "url": "https://minfopra.gov.cm",
+            "organizationOrAuthor": "MINFOPRA",
+            "date": "2026",
+            "excerpt": "Alerte permanente contre les faux recrutements et faux communiqués circulant sur les réseaux sociaux.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": {
+          "score": 95,
+          "level": "HIGH",
+          "explanation": "Indice élevé en raison de la présence explicite d’indicateurs d’extorsion financière par portefeuille mobile non autorisé."
+        },
+        "limitations": [
+          "Enquête judiciaire requise pour identifier les titulaires des numéros de téléphone incriminés."
+        ],
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "createdAt": "2026-10-21T19:36:26.698Z",
+        "completedAt": "2026-10-21T19:36:26.943Z",
+        "elapsedSeconds": 0,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "workflowStep": "COMPLETED",
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2"
+      }
+    },
+    {
+      "id": "task-inv-1792611398259-9063",
+      "investigationId": "inv-1792611398259-9063",
+      "code": "#VRF-2026-9063",
+      "input": {
+        "id": "inv-1792611398259-9063",
+        "code": "#VRF-2026-9063",
+        "text": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456"
+      },
+      "workflowStep": "COMPLETED",
+      "createdAt": "2026-10-21T19:36:38.270Z",
+      "updatedAt": "2026-10-21T19:36:39.424Z",
+      "retryCount": 0,
+      "output": {
+        "claim": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+        "verdict": "FALSE",
+        "verdictLabel": "FAUSSE INFORMATION (TENTATIVE D'ESCROQUERIE)",
+        "summary": "Cette publication présente les caractéristiques formelles d'une escroquerie par usurpation administrative camerounaise. L'exigence de frais de dossier par virement Mobile Money contrevient formellement aux procédures légales du Trésor Public.",
+        "reasoning_summary": "L'analyse a identifié un motif financier illégal (Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public). Aucun organisme public camerounais ne recrute ou ne perçoit de quittances administratives via des comptes mobiles de particuliers.",
+        "evidence": [
+          {
+            "claim": "Antécédent répertorié : « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+            "supports": false,
+            "sourceTitle": "Dossier d'archive VÉRIF237 (#VRF-2026-6002)",
+            "sourceUrl": "https://verif237.cm/dossier/#VRF-2026-6002",
+            "excerpt": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+            "date": "2026-10-21",
+            "reliability": "reference_documentaire"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Fonction Publique et de la Réforme Administrative (MINFOPRA)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINFOPRA",
+            "sourceUrl": "https://minfopra.gov.cm",
+            "excerpt": "Gestion des carrières des fonctionnaires, ouverture des concours directs (ENAM, Douanes, Cadres).",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Santé Publique (MINSANTE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINSANTE",
+            "sourceUrl": "https://minsante.cm",
+            "excerpt": "Politique sanitaire nationale, alertes épidémiologiques, gratuité des soins ciblés.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de l’Enseignement Supérieur (MINESUP)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINESUP",
+            "sourceUrl": "https://minesup.gov.cm",
+            "excerpt": "Universités d’État, IPES reconnus, homologation des diplômes et bourses de coopération.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère des Finances & Direction Générale des Impôts (MINFI / DGI)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINFI / DGI",
+            "sourceUrl": "https://dgi.minfi.gov.cm",
+            "excerpt": "Fiscalité, tarifs des timbres fiscaux, télédéclaration, régimes fiscaux PME.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère des Postes et Télécommunications (MINPOSTEL)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINPOSTEL",
+            "sourceUrl": "https://minpostel.gov.cm",
+            "excerpt": "Régulation des communications électroniques, inclusion numérique, infrastructures de données souveraines.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Justice, Garde des Sceaux (MINJUSTICE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINJUSTICE",
+            "sourceUrl": "https://minjustice.gov.cm",
+            "excerpt": "Délivrance du casier judiciaire (bulletin n°3), code pénal et répression de la propagation de fausses nouvelles.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de l’Administration Territoriale (MINAT)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINAT",
+            "sourceUrl": "https://minat.gov.cm",
+            "excerpt": "Autorisations des ONG, sécurité territoriale, gouvernorats et préfectures des 10 régions.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère du Commerce (MINCOMMERCE)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINCOMMERCE",
+            "sourceUrl": "https://mincommerce.gov.cm",
+            "excerpt": "Plafonds de prix des denrées de première nécessité, homologation des tarifs de transport.",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public",
+            "supports": false,
+            "sourceTitle": "Réglementation financière publique du Cameroun (Loi de Finances)",
+            "sourceUrl": "https://www.minfi.gov.cm",
+            "excerpt": "Tout droit d’inscription ou frais de concours officiel fait l’objet d’une quittance émise par le Trésor Public ou d'un compte bancaire officiel du Trésor, jamais de portefeuille mobile personnel.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "title": "MINFOPRA — Mises en garde et communiqués officiels",
+            "url": "https://minfopra.gov.cm",
+            "organizationOrAuthor": "MINFOPRA",
+            "date": "2026",
+            "excerpt": "Alerte permanente contre les faux recrutements et faux communiqués circulant sur les réseaux sociaux.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": {
+          "score": 95,
+          "level": "HIGH",
+          "explanation": "Indice élevé en raison de la présence explicite d’indicateurs d’extorsion financière par portefeuille mobile non autorisé."
+        },
+        "limitations": [
+          "Enquête judiciaire requise pour identifier les titulaires des numéros de téléphone incriminés."
+        ],
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "createdAt": "2026-10-21T19:36:39.191Z",
+        "completedAt": "2026-10-21T19:36:39.418Z",
+        "elapsedSeconds": 0,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "workflowStep": "COMPLETED",
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2"
+      }
+    },
+    {
+      "id": "task-test-queue-1792611421203",
+      "investigationId": "test-queue-1792611421203",
+      "code": "#VRF-2026-ASYNC5263",
+      "input": {
+        "id": "test-queue-1792611421203",
+        "code": "#VRF-2026-ASYNC5263",
+        "text": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "sourceType": "WhatsApp"
+      },
+      "workflowStep": "REQUIRES_HUMAN_REVIEW",
+      "createdAt": "2026-10-21T19:37:01.203Z",
+      "updatedAt": "2026-10-21T19:37:02.381Z",
+      "retryCount": 0,
+      "output": {
+        "claim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisation du Baccalauréat de l’enseignement secondaire général et technique francophone.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": {
+          "score": 50,
+          "level": "LOW",
+          "explanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché."
+        },
+        "limitations": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ],
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "createdAt": "2026-10-21T19:37:02.127Z",
+        "completedAt": "2026-10-21T19:37:02.375Z",
+        "elapsedSeconds": 0,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "workflowStep": "COMPLETED",
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2"
+      }
+    },
+    {
+      "id": "task-inv-1792662480922-2089",
+      "investigationId": "inv-1792662480922-2089",
+      "code": "#VRF-2026-2089",
+      "input": {
+        "id": "inv-1792662480922-2089",
+        "code": "#VRF-2026-2089",
+        "text": "« Communiqué Spécial MINFOPRA : Recrutement exceptionnel de 3 500 instituteurs de l'enseignement technique. Dépôt des dossiers auprès de M. Abena au 677 82 14 00 avec 12 500 FCFA de frais de quittance par Orange Money ou MTN MoMo. »",
+        "url": "https://whatsapp.com/channel/fake-concours-cameroun",
+        "sourceType": "Texte WhatsApp",
+        "region": "Centre (Yaoundé)",
+        "authorOrSource": "Prétendu délégué MINFOPRA M. Abena",
+        "contextDate": "2026-10-22"
+      },
+      "workflowStep": "COMPLETED",
+      "createdAt": "2026-10-22T09:48:00.954Z",
+      "updatedAt": "2026-10-22T09:48:03.244Z",
+      "retryCount": 0,
+      "output": {
+        "claim": "« Communiqué Spécial MINFOPRA : Recrutement exceptionnel de 3 500 instituteurs de l'enseignement technique. Dépôt des dossiers auprès de M. Abena au 6…",
+        "verdict": "FALSE",
+        "verdictLabel": "FAUSSE INFORMATION (TENTATIVE D'ESCROQUERIE)",
+        "summary": "Cette publication présente les caractéristiques formelles d'une escroquerie par usurpation administrative camerounaise. L'exigence de frais de dossier par virement Mobile Money contrevient formellement aux procédures légales du Trésor Public.",
+        "reasoning_summary": "L'analyse a identifié un motif financier illégal (Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public). Aucun organisme public camerounais ne recrute ou ne perçoit de quittances administratives via des comptes mobiles de particuliers.",
+        "evidence": [
+          {
+            "claim": "Antécédent répertorié : « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+            "supports": false,
+            "sourceTitle": "Dossier d'archive VÉRIF237 (#VRF-2026-9063)",
+            "sourceUrl": "https://verif237.cm/dossier/#VRF-2026-9063",
+            "excerpt": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+            "date": "2026-10-21",
+            "reliability": "reference_documentaire"
+          },
+          {
+            "claim": "Antécédent répertorié : « Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 6701234 »",
+            "supports": false,
+            "sourceTitle": "Dossier d'archive VÉRIF237 (#VRF-2026-6002)",
+            "sourceUrl": "https://verif237.cm/dossier/#VRF-2026-6002",
+            "excerpt": "Recrutement direct de 10 000 jeunes au Ministère de la Fonction Publique MINFOPRA avec frais par Orange Money au 670123456",
+            "date": "2026-10-21",
+            "reliability": "reference_documentaire"
+          },
+          {
+            "claim": "Tutelle institutionnelle identifiée : Ministère de la Fonction Publique et de la Réforme Administrative (MINFOPRA)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — MINFOPRA",
+            "sourceUrl": "https://minfopra.gov.cm",
+            "excerpt": "Gestion des carrières des fonctionnaires, ouverture des concours directs (ENAM, Douanes, Cadres).",
+            "reliability": "officielle"
+          },
+          {
+            "claim": "Vérification de l'URL cible : https://whatsapp.com/channel/fake-concours-cameroun",
+            "supports": false,
+            "sourceTitle": "Source Externe",
+            "sourceUrl": "https://whatsapp.com/channel/fake-concours-cameroun",
+            "excerpt": "<<<SOURCE_EXTERNE_NON_VALIDEE nom=\"https://whatsapp.com/channel/fake-concours-cameroun\">\nPortail vérifié : https://whatsapp.com/channel/fake-concours-cameroun. Consultation dans le cadre de l'investigation VÉRIF237.\n</<<FIN_SOURCE_EXTERNE>>>",
+            "reliability": "non_confirmee"
+          },
+          {
+            "claim": "Paiement mobile exigé (Orange Money / MTN MoMo) pour un service public réputé gratuit ou payable exclusivement au Trésor Public",
+            "supports": false,
+            "sourceTitle": "Réglementation financière publique du Cameroun (Loi de Finances)",
+            "sourceUrl": "https://www.minfi.gov.cm",
+            "excerpt": "Tout droit d’inscription ou frais de concours officiel fait l’objet d’une quittance émise par le Trésor Public ou d'un compte bancaire officiel du Trésor, jamais de portefeuille mobile personnel.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "title": "MINFOPRA — Mises en garde et communiqués officiels",
+            "url": "https://minfopra.gov.cm",
+            "organizationOrAuthor": "MINFOPRA",
+            "date": "2026",
+            "excerpt": "Alerte permanente contre les faux recrutements et faux communiqués circulant sur les réseaux sociaux.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          },
+          {
+            "title": "Lien soumis par le citoyen",
+            "url": "https://whatsapp.com/channel/fake-concours-cameroun",
+            "organizationOrAuthor": "Source Web",
+            "excerpt": "Portail vérifié : https://whatsapp.com/channel/fake-concours-cameroun. Consultation dans le cadre de l'investigation VÉRIF237.",
+            "isOfficial": false,
+            "reliability": "non_confirmee"
+          }
+        ],
+        "confidence": {
+          "score": 95,
+          "level": "HIGH",
+          "explanation": "Indice élevé en raison de la présence explicite d’indicateurs d’extorsion financière par portefeuille mobile non autorisé."
+        },
+        "limitations": [
+          "Enquête judiciaire requise pour identifier les titulaires des numéros de téléphone incriminés."
+        ],
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "createdAt": "2026-10-22T09:48:01.871Z",
+        "completedAt": "2026-10-22T09:48:03.240Z",
+        "elapsedSeconds": 1,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "workflowStep": "COMPLETED",
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2"
+      }
+    },
+    {
+      "id": "task-test-queue-1792662614482",
+      "investigationId": "test-queue-1792662614482",
+      "code": "#VRF-2026-ASYNC1044",
+      "input": {
+        "id": "test-queue-1792662614482",
+        "code": "#VRF-2026-ASYNC1044",
+        "text": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "sourceType": "WhatsApp"
+      },
+      "workflowStep": "REQUIRES_HUMAN_REVIEW",
+      "createdAt": "2026-10-22T09:50:14.482Z",
+      "updatedAt": "2026-10-22T09:50:15.993Z",
+      "retryCount": 0,
+      "output": {
+        "claim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisation du Baccalauréat de l’enseignement secondaire général et technique francophone.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": {
+          "score": 50,
+          "level": "LOW",
+          "explanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché."
+        },
+        "limitations": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ],
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "createdAt": "2026-10-22T09:50:15.404Z",
+        "completedAt": "2026-10-22T09:50:15.988Z",
+        "elapsedSeconds": 1,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "workflowStep": "COMPLETED",
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2"
+      }
+    },
+    {
+      "id": "task-test-queue-1792938264375",
+      "investigationId": "test-queue-1792938264375",
+      "code": "#VRF-2026-ASYNC2153",
+      "input": {
+        "id": "test-queue-1792938264375",
+        "code": "#VRF-2026-ASYNC2153",
+        "text": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "sourceType": "WhatsApp"
+      },
+      "workflowStep": "REQUIRES_HUMAN_REVIEW",
+      "createdAt": "2026-10-25T14:24:24.375Z",
+      "updatedAt": "2026-10-25T14:24:27.100Z",
+      "retryCount": 0,
+      "output": {
+        "claim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisation du Baccalauréat de l’enseignement secondaire général et technique francophone.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": {
+          "score": 50,
+          "level": "LOW",
+          "explanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché."
+        },
+        "limitations": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ],
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "createdAt": "2026-10-25T14:24:26.205Z",
+        "completedAt": "2026-10-25T14:24:27.094Z",
+        "elapsedSeconds": 1,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "workflowStep": "COMPLETED",
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2"
+      }
+    }
+  ],
+  "assistantConversations": [
+    {
+      "id": "conv-1792941255057-dzcdfu",
+      "title": "J’ai reçu un message disant que j’ai gagné…",
+      "createdAt": "2026-10-25T15:14:15.057Z",
+      "updatedAt": "2026-10-25T15:14:15.330Z",
+      "messages": [
+        {
+          "id": "msg-1792941255057-6iap",
+          "role": "user",
+          "content": "J’ai reçu un message disant que j’ai gagné 500 000 FCFA par Orange Money avec un code à renvoyer",
+          "timestamp": "2026-10-25T15:14:15.057Z"
+        },
+        {
+          "id": "msg-1792941255330-ijnm",
+          "role": "assistant",
+          "content": "### ⚠️ Alerte Déontologique : Examen des frais et modalités de paiement\n\nAu Cameroun, **aucun concours administratif de la Fonction Publique (MINFOPRA, Police, Douanes, ENAM) ni aucun acte d'état civil ne perçoit de frais via Orange Money ou MTN Mobile Money**.\n\n#### Règle institutionnelle stricte :\n1. **Légalité du paiement :** Tout droit de timbre ou frais d'inscription légal s'acquitte obligatoirement auprès des régies du **Trésor Public** ou d'agences bancaires agréées donnant lieu à une quittance sécurisée.\n2. **Signalement d'escroquerie :** Toute annonce exigeant un transfert d'argent sur un numéro de téléphone personnel sous prétexte de « réserver une place » ou de « valider un dossier » est une **tentative d'escroquerie avérée**.\n3. **Canal de vérification :** Consultez toujours les arrêtés signés sur le portail officiel du ministère concerné (ex: *minfopra.gov.cm* pour la Fonction Publique).\n\n*Cette mise en garde fait partie des protocoles d'alerte certifiés par l'Observatoire Vérif237.*",
+          "timestamp": "2026-10-25T15:14:15.330Z",
+          "sources": [
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-2089)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-22",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            },
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-9063)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-21",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            },
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-6002)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-21",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv-1792941240563-lyrdfx",
+      "title": "Reconnaître une fausse information ?",
+      "userId": "usr-citoyen-01",
+      "userSessionId": "usr-citoyen-01",
+      "createdAt": "2026-10-25T15:14:00.563Z",
+      "updatedAt": "2026-10-25T15:14:00.783Z",
+      "messages": [
+        {
+          "id": "msg-1792941240563-16uk",
+          "role": "user",
+          "content": "Comment reconnaître une fausse information ?",
+          "timestamp": "2026-10-25T15:14:00.563Z"
+        },
+        {
+          "id": "msg-1792941240783-3jfe",
+          "role": "assistant",
+          "content": "### 🏛️ Réponse de l'Assistant IA Vérif237\n\nMerci pour votre question : **« Comment reconnaître une fausse information ? »**.\n\nEn tant qu'assistant de Vérif237, j'analyse votre demande à la lumière des sources institutionnelles et des pratiques déontologiques au Cameroun :\n\n1. **Sources recommandées :** Pour toute démarche ou vérification d'actualité, privilégiez toujours les portails officiels de l'État camerounais (domaines `.cm` et `.gov.cm`) ainsi que les organes de presse reconnus.\n2. **Documents administratifs :** Si votre interrogation concerne un document précis (arrêté, concours, communiqué), vous pouvez consulter notre répertoire dans l'onglet **« Actes »** ou soumettre le texte directement dans l'onglet **« Vérifier »**.\n3. **Prudence déontologique :** Aucune affirmation circulant sur les réseaux sociaux ne doit être considérée comme authentique sans recoupement direct auprès de l'organisme émetteur.\n\n*Avez-vous un texte précis, un lien ou une affirmation spécifique que vous souhaitez que nous analysions ensemble ?*",
+          "timestamp": "2026-10-25T15:14:00.783Z"
+        }
+      ]
+    },
+    {
+      "id": "conv-1792941162180-2tpg6h",
+      "title": "fonctionne la vérification des information…",
+      "userId": "usr-citoyen-01",
+      "userSessionId": "usr-citoyen-01",
+      "createdAt": "2026-10-25T15:12:42.180Z",
+      "updatedAt": "2026-10-25T15:12:42.445Z",
+      "messages": [
+        {
+          "id": "msg-1792941162181-6xd6",
+          "role": "user",
+          "content": "Comment fonctionne la vérification des informations sur Vérif237 ?",
+          "timestamp": "2026-10-25T15:12:42.180Z"
+        },
+        {
+          "id": "msg-1792941162445-oak6",
+          "role": "assistant",
+          "content": "### 🏛️ Réponse de l'Assistant IA Vérif237\n\nMerci pour votre question : **« Comment fonctionne la vérification des informations sur Vérif237 ? »**.\n\nEn tant qu'assistant de Vérif237, j'analyse votre demande à la lumière des sources institutionnelles et des pratiques déontologiques au Cameroun :\n\n1. **Sources recommandées :** Pour toute démarche ou vérification d'actualité, privilégiez toujours les portails officiels de l'État camerounais (domaines `.cm` et `.gov.cm`) ainsi que les organes de presse reconnus.\n2. **Documents administratifs :** Si votre interrogation concerne un document précis (arrêté, concours, communiqué), vous pouvez consulter notre répertoire dans l'onglet **« Actes »** ou soumettre le texte directement dans l'onglet **« Vérifier »**.\n3. **Prudence déontologique :** Aucune affirmation circulant sur les réseaux sociaux ne doit être considérée comme authentique sans recoupement direct auprès de l'organisme émetteur.\n\n*Avez-vous un texte précis, un lien ou une affirmation spécifique que vous souhaitez que nous analysions ensemble ?*",
+          "timestamp": "2026-10-25T15:12:42.445Z",
+          "sources": [
+            {
+              "title": "Portail Officiel — Ministère de la Fonction Publique et de la Réforme Administrative (MINFOPRA)",
+              "organization": "MINFOPRA",
+              "url": "https://minfopra.gov.cm",
+              "isOfficial": true,
+              "reliability": "officielle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv-1792938657852-dmq6yn",
+      "title": "J’ai reçu un message disant que j’ai gagné…",
+      "createdAt": "2026-10-25T14:30:57.852Z",
+      "updatedAt": "2026-10-25T14:30:58.154Z",
+      "messages": [
+        {
+          "id": "msg-1792938657852-d2n6",
+          "role": "user",
+          "content": "J’ai reçu un message disant que j’ai gagné 500 000 FCFA par Orange Money avec un code à renvoyer",
+          "timestamp": "2026-10-25T14:30:57.852Z"
+        },
+        {
+          "id": "msg-1792938658154-ffex",
+          "role": "assistant",
+          "content": "### ⚠️ Alerte Déontologique : Examen des frais et modalités de paiement\n\nAu Cameroun, **aucun concours administratif de la Fonction Publique (MINFOPRA, Police, Douanes, ENAM) ni aucun acte d'état civil ne perçoit de frais via Orange Money ou MTN Mobile Money**.\n\n#### Règle institutionnelle stricte :\n1. **Légalité du paiement :** Tout droit de timbre ou frais d'inscription légal s'acquitte obligatoirement auprès des régies du **Trésor Public** ou d'agences bancaires agréées donnant lieu à une quittance sécurisée.\n2. **Signalement d'escroquerie :** Toute annonce exigeant un transfert d'argent sur un numéro de téléphone personnel sous prétexte de « réserver une place » ou de « valider un dossier » est une **tentative d'escroquerie avérée**.\n3. **Canal de vérification :** Consultez toujours les arrêtés signés sur le portail officiel du ministère concerné (ex: *minfopra.gov.cm* pour la Fonction Publique).\n\n*Cette mise en garde fait partie des protocoles d'alerte certifiés par l'Observatoire Vérif237.*",
+          "timestamp": "2026-10-25T14:30:58.154Z",
+          "sources": [
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-2089)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-22",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            },
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-9063)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-21",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            },
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-6002)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-21",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv-1792938373455-9erpr4",
+      "title": "Bonjour, comment vérifier une rumeur sur W…",
+      "createdAt": "2026-10-25T14:26:13.455Z",
+      "updatedAt": "2026-10-25T14:26:13.680Z",
+      "messages": [
+        {
+          "id": "msg-1792938373455-kq2g",
+          "role": "user",
+          "content": "Bonjour, comment vérifier une rumeur sur WhatsApp au Cameroun ?",
+          "timestamp": "2026-10-25T14:26:13.455Z"
+        },
+        {
+          "id": "msg-1792938373680-r07n",
+          "role": "assistant",
+          "content": "### 🔍 Guide Pratique : Comment vérifier une information circulant en ligne\n\nPour évaluer la fiabilité d'une information au Cameroun, appliquez le protocole en 5 étapes recommandé par Vérif237 :\n\n1. **Remonter à la source première :**\n   - Qui est l'auteur réel de l'information ?\n   - Le texte comporte-t-il un numéro de décret, une date précise et la signature d'une autorité habilitée ?\n2. **Contrôler les éléments graphiques et tampons :**\n   - Les fausses circulaires comportent souvent des polices disparates, des armoiries déformées ou des tampons recadrés provenant d'anciens documents.\n3. **Se méfier des injonctions émotionnelles :**\n   - Les formulations comme *« Partagez vite avant suppression »* ou *« Information urgente à diffuser à tous vos groupes »* sont les marqueurs typiques des chaînes virales manipulatrices.\n4. **Vérifier l'existence de canaux de paiement frauduleux :**\n   - Toute demande de versement d'argent par messagerie mobile pour un service public gratuit est une arnaque.\n5. **Consulter le répertoire officiel :**\n   - Utilisez l'onglet **« Actes »** de Vérif237 pour comparer le document avec les arrêtés certifiés en vigueur.",
+          "timestamp": "2026-10-25T14:26:13.680Z",
+          "sources": [
+            {
+              "title": "Portail Officiel — Office du Baccalauréat du Cameroun (OBC)",
+              "organization": "OBC",
+              "url": "https://obc.cm",
+              "isOfficial": true,
+              "reliability": "officielle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv-1792938343239-lrqi8u",
+      "title": "J’ai reçu un message disant que j’ai gagné…",
+      "createdAt": "2026-10-25T14:25:43.239Z",
+      "updatedAt": "2026-10-25T14:25:43.493Z",
+      "messages": [
+        {
+          "id": "msg-1792938343239-2dfi",
+          "role": "user",
+          "content": "J’ai reçu un message disant que j’ai gagné 500 000 FCFA par Orange Money avec un code à renvoyer",
+          "timestamp": "2026-10-25T14:25:43.239Z"
+        },
+        {
+          "id": "msg-1792938343493-wyiv",
+          "role": "assistant",
+          "content": "### ⚠️ Alerte Déontologique : Examen des frais et modalités de paiement\n\nAu Cameroun, **aucun concours administratif de la Fonction Publique (MINFOPRA, Police, Douanes, ENAM) ni aucun acte d'état civil ne perçoit de frais via Orange Money ou MTN Mobile Money**.\n\n#### Règle institutionnelle stricte :\n1. **Légalité du paiement :** Tout droit de timbre ou frais d'inscription légal s'acquitte obligatoirement auprès des régies du **Trésor Public** ou d'agences bancaires agréées donnant lieu à une quittance sécurisée.\n2. **Signalement d'escroquerie :** Toute annonce exigeant un transfert d'argent sur un numéro de téléphone personnel sous prétexte de « réserver une place » ou de « valider un dossier » est une **tentative d'escroquerie avérée**.\n3. **Canal de vérification :** Consultez toujours les arrêtés signés sur le portail officiel du ministère concerné (ex: *minfopra.gov.cm* pour la Fonction Publique).\n\n*Cette mise en garde fait partie des protocoles d'alerte certifiés par l'Observatoire Vérif237.*",
+          "timestamp": "2026-10-25T14:25:43.493Z",
+          "sources": [
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-2089)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-22",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            },
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-9063)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-21",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            },
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-6002)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-21",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-conv-1792938318043",
+      "title": "Procédure CNI DGSN",
+      "createdAt": "2026-10-25T14:25:18.043Z",
+      "updatedAt": "2026-10-25T14:25:18.046Z",
+      "messages": [
+        {
+          "id": "msg-1",
+          "role": "user",
+          "content": "Comment refaire ma CNI à Yaoundé ?",
+          "timestamp": "2026-10-25T14:25:18.043Z"
+        },
+        {
+          "id": "msg-2",
+          "role": "assistant",
+          "content": "Pour établir ou renouveler votre CNI au Cameroun, rendez-vous dans un poste d’identification DGSN...",
+          "timestamp": "2026-10-25T14:25:18.043Z"
+        }
+      ]
+    },
+    {
+      "id": "test-conv-1792938308263",
+      "title": "Procédure CNI DGSN",
+      "createdAt": "2026-10-25T14:25:08.263Z",
+      "updatedAt": "2026-10-25T14:25:08.267Z",
+      "messages": [
+        {
+          "id": "msg-1",
+          "role": "user",
+          "content": "Comment refaire ma CNI à Yaoundé ?",
+          "timestamp": "2026-10-25T14:25:08.264Z"
+        },
+        {
+          "id": "msg-2",
+          "role": "assistant",
+          "content": "Pour établir ou renouveler votre CNI au Cameroun, rendez-vous dans un poste d’identification DGSN...",
+          "timestamp": "2026-10-25T14:25:08.264Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Vérif 237 — Plateforme Citoyenne d'Intérêt Public & Observatoire des Actes Officiels</title>
+    <meta name="description" content="Plateforme indépendante de vérification des faits, de lutte contre la désinformation et d'accès aux actes officiels du Cameroun." />
+    <meta property="og:title" content="Vérif 237 — Observatoire Citoyen & Répertoire des Actes Officiels" />
+    <meta property="og:description" content="Vérification des faits, lutte contre la désinformation et actes administratifs certifiés du Cameroun." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#005c55" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Vérif237" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
+    <!-- Google Fonts: Manrope, Inter, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google Material Symbols Outlined -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script>
+      // Silence Vite HMR WebSocket closing errors in preview/sandbox iframe
+      window.addEventListener('error', function(e) {
+        if (e && e.message && (e.message.includes('WebSocket') || e.message.includes('@vite/client'))) {
+          e.preventDefault && e.preventDefault();
+          e.stopImmediatePropagation && e.stopImmediatePropagation();
+          return true;
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(e) {
+        if (e && e.reason && (String(e.reason).includes('WebSocket') || (e.reason.message && e.reason.message.includes('WebSocket')))) {
+          e.preventDefault && e.preventDefault();
+          return true;
+        }
+      }, true);
+    </script>
+  </head>
+  <body class="bg-[#f7f9ff] dark:bg-[#0b1220] text-[#121c26] dark:text-[#f1f5f9] antialiased selection:bg-[#005c55] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
