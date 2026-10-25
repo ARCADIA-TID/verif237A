@@ -5,8 +5,9 @@ import {
   AuditLogEntry,
   InvestigationQueueItem
 } from '../types';
+import Logo from "@/public/Logo.png"
 
-export const LOGO_URL = 'https://lh3.googleusercontent.com/aida/AEtjO1UGaKyYCqcL-SZSam9SCrJ_U1kLcsGg-yN30DOjRmw9Bjggr0iQZS2rNEpvwWQFrvYA2ZC9hy7FAma_S9QiTwz6ZAjC7lXTkby4HpIqVleYcIvlfD0gTTIVlegw9Cg_Y6jGNiwDdi6zyDPAgexM5VThYIIwqdIISdBfA3q171TFrorPOZXqP52KeENLEwthtTCKKn28iZ_5qveqsXA9KwCSA4zAGJUGLSR2MNZtIJlfemOuTUcJEaT-8-E';
+export const LOGO_URL = Logo;
 
 export const MOCK_OFFICIAL_ACTS: OfficialAct[] = [
   {
