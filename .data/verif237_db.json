@@ -259,6 +259,23 @@
   ],
   "auditLogs": [
     {
+      "id": "log-1792952148565-907",
+      "index": 6,
+      "time": "18:15:48",
+      "timestamp": "2026-10-25T18:15:48.538Z",
+      "type": "ATTRIBUTION",
+      "title": "Vérification IA achevée pour #VRF-2026-ASYNC7615",
+      "detail": "Verdict canonique : UNVERIFIABLE (LOW). Durée : 2s. SLA respecté : true.",
+      "user": "Service IA Vérif 237",
+      "actorId": "ai-worker",
+      "resource": "Dossier #VRF-2026-ASYNC7615",
+      "result": "SUCCESS",
+      "correlationId": "corr-935090",
+      "extraMeta": "Verdict=UNVERIFIABLE|Elapsed=2s|SLA=true|Provider=Observatoire Souverain Cameroun (AgNES)",
+      "previousHash": "e24b0818b48a4c358aa841a5e9483637c392a7ee93e35134b02195668df56a8f",
+      "hash": "e114d1614a3cd5d7871b10018258dd78898c0a8dda1131ba141127a94ade5a1c"
+    },
+    {
       "id": "log-1792938267125-717",
       "index": 6,
       "time": "14:24:27",
@@ -2549,6 +2566,178 @@
           "Transmission recommandée aux enquêteurs de terrain pour recoupement."
         ]
       }
+    },
+    {
+      "id": "test-sub-1792952146210",
+      "code": "#VRF-2026-TEST5275",
+      "title": "Le Ministère des Enseignements Secondaires annonce le calendrier des examens officiels session 2026",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "Web citoyen",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-25T18:15:46.210Z",
+      "submittedBy": "Citoyen Test",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "submitted",
+      "statusLabel": "En attente de traitement",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "sourceUrl": "https://minesec.gov.cm/communique-2026"
+    },
+    {
+      "id": "test-queue-1792952146211",
+      "code": "#VRF-2026-ASYNC7615",
+      "title": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+      "description": "Description détaillée du signalement soumis",
+      "sourceType": "WhatsApp",
+      "urgency": "normale",
+      "urgencyLabel": "Urgence normale",
+      "timeAgo": "À l'instant",
+      "submittedAt": "2026-10-25T18:15:46.211Z",
+      "submittedBy": "Anonyme 237",
+      "assignedTo": "Observatoire Vérif 237",
+      "status": "en_instruction",
+      "statusLabel": "Investigation approfondie requise par un enquêteur",
+      "scope": "National",
+      "signatures": {
+        "isSealed": false
+      },
+      "notes": [],
+      "aiVerification": {
+        "id": "ai-test-queue-1792952146211",
+        "status": "verification_approfondie_requise",
+        "statusLabel": "Vérification approfondie nécessaire par un enquêteur humain",
+        "progressStep": "FINALISATION",
+        "stepDescription": "Preuves documentaires incomplètes. Dossier orienté vers l'instruction humaine.",
+        "startedAt": "2026-10-25T18:15:46.211Z",
+        "elapsedSeconds": 2,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "retryCount": 0,
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2",
+        "workflowStep": "REQUIRES_HUMAN_REVIEW",
+        "estimatedRemainingSeconds": 0,
+        "stepStatuses": {
+          "information_recue": "completed",
+          "analyse_initiale": "completed",
+          "recherche_sources": "completed",
+          "analyse_preuves": "completed",
+          "evaluation_ia": "completed",
+          "validation": "completed",
+          "resultat_disponible": "completed"
+        },
+        "stepHistory": [
+          {
+            "step": "information_recue",
+            "label": "Information reçue",
+            "timestamp": "2026-10-25T18:15:46.211Z",
+            "status": "completed",
+            "message": "L'information soumise a été enregistrée avec succès."
+          },
+          {
+            "step": "analyse_initiale",
+            "label": "Analyse initiale",
+            "timestamp": "2026-10-25T18:15:46.211Z",
+            "status": "in_progress",
+            "message": "Extraction des affirmations et des éléments à examiner."
+          },
+          {
+            "step": "analyse_initiale",
+            "label": "Analyse initiale",
+            "timestamp": "2026-10-25T18:15:46.224Z",
+            "status": "in_progress",
+            "message": "Extraction des affirmations et des faits vérifiables."
+          },
+          {
+            "step": "analyse_initiale",
+            "label": "Analyse initiale",
+            "timestamp": "2026-10-25T18:15:46.828Z",
+            "status": "completed",
+            "message": "Faits et entités identifiés avec succès."
+          },
+          {
+            "step": "recherche_sources",
+            "label": "Recherche de sources",
+            "timestamp": "2026-10-25T18:15:46.828Z",
+            "status": "in_progress",
+            "message": "Consultation des sources Web accessibles et de la base interne camerounaise."
+          },
+          {
+            "step": "recherche_sources",
+            "label": "Recherche de sources",
+            "timestamp": "2026-10-25T18:15:47.533Z",
+            "status": "completed",
+            "message": "Sources documentaires et portails officiels consultés."
+          },
+          {
+            "step": "analyse_preuves",
+            "label": "Analyse des preuves",
+            "timestamp": "2026-10-25T18:15:47.533Z",
+            "status": "in_progress",
+            "message": "Comparaison des informations, dates, sources et contradictions."
+          },
+          {
+            "step": "validation",
+            "label": "Validation",
+            "timestamp": "2026-10-25T18:15:48.530Z",
+            "status": "completed",
+            "message": "Orientation vers instruction collégiale humaine requise."
+          },
+          {
+            "step": "resultat_disponible",
+            "label": "Résultat disponible",
+            "timestamp": "2026-10-25T18:15:48.530Z",
+            "status": "completed",
+            "message": "Conclusions préliminaires et transmission aux vérificateurs."
+          }
+        ],
+        "completedAt": "2026-10-25T18:15:48.530Z",
+        "analyzedClaim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "NON_VERIFIABLE",
+        "canonicalVerdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "arguments": [
+          "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC) — Répertoire Officiel de l'État du Cameroun — OBC"
+        ],
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisation du Baccalauréat de l’enseignement secondaire général et technique francophone.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Portail des Services du Premier Ministère du Cameroun",
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "snippet": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": "FAIBLE",
+        "confidenceScore": 50,
+        "confidenceExplanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché.",
+        "limits": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ]
+      }
     }
   ],
   "doubleSignatures": [
@@ -2734,8 +2923,8 @@
         "text": "Allégation de test persistance"
       },
       "workflowStep": "COMPLETED",
-      "createdAt": "2026-10-25T14:24:23.341Z",
-      "updatedAt": "2026-10-25T14:24:23.343Z",
+      "createdAt": "2026-10-25T18:15:45.414Z",
+      "updatedAt": "2026-10-25T18:15:45.417Z",
       "retryCount": 0
     },
     {
@@ -3342,9 +3531,116 @@
         "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
         "modelName": "cameroon-institutional-grounding-v2"
       }
+    },
+    {
+      "id": "task-test-queue-1792952146211",
+      "investigationId": "test-queue-1792952146211",
+      "code": "#VRF-2026-ASYNC7615",
+      "input": {
+        "id": "test-queue-1792952146211",
+        "code": "#VRF-2026-ASYNC7615",
+        "text": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "sourceType": "WhatsApp"
+      },
+      "workflowStep": "REQUIRES_HUMAN_REVIEW",
+      "createdAt": "2026-10-25T18:15:46.211Z",
+      "updatedAt": "2026-10-25T18:15:48.536Z",
+      "retryCount": 0,
+      "output": {
+        "claim": "Le gouvernement camerounais a signé un décret d'application pour le statut des enseignants.",
+        "verdict": "UNVERIFIABLE",
+        "verdictLabel": "NON VÉRIFIABLE POUR LE MOMENT",
+        "summary": "En l'état actuel des sources disponibles et sans document primaire authentifiable (communiqué ministériel, décret ou quittance officielle), cette allégation ne peut être ni confirmée ni infirmée sans risque d'erreur.",
+        "reasoning_summary": "Absence de document primaire publié par les autorités camerounaises compétentes ou de démenti formel disponible au moment de l'analyse. Conformément aux principes de déontologie, aucun verdict spéculatif n'est produit.",
+        "evidence": [
+          {
+            "claim": "Tutelle institutionnelle identifiée : Office du Baccalauréat du Cameroun (OBC)",
+            "supports": true,
+            "sourceTitle": "Répertoire Officiel de l'État du Cameroun — OBC",
+            "sourceUrl": "https://obc.cm",
+            "excerpt": "Organisation du Baccalauréat de l’enseignement secondaire général et technique francophone.",
+            "reliability": "officielle"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Portail des Services du Premier Ministère du Cameroun",
+            "url": "https://www.spm.gov.cm",
+            "organizationOrAuthor": "Gouvernement de la République du Cameroun",
+            "date": "2026",
+            "excerpt": "Dépôt des actes et communiqués officiels du Gouvernement.",
+            "isOfficial": true,
+            "reliability": "officielle"
+          }
+        ],
+        "confidence": {
+          "score": 50,
+          "level": "LOW",
+          "explanation": "Niveau de confiance réservé : preuves documentaires insuffisantes pour émettre un jugement tranché."
+        },
+        "limitations": [
+          "Aucun communiqué ministériel ou démenti publié au moment de la requête.",
+          "Transmission recommandée aux enquêteurs de terrain pour recoupement."
+        ],
+        "humanReviewStatus": "NON_VALIDE_HUMAIN",
+        "createdAt": "2026-10-25T18:15:48.039Z",
+        "completedAt": "2026-10-25T18:15:48.530Z",
+        "elapsedSeconds": 0,
+        "slaTargetSeconds": 300,
+        "isSlaBreached": false,
+        "workflowStep": "COMPLETED",
+        "modelProvider": "Observatoire Souverain Cameroun (AgNES)",
+        "modelName": "cameroon-institutional-grounding-v2"
+      }
     }
   ],
   "assistantConversations": [
+    {
+      "id": "conv-1792952180605-dlf4lq",
+      "title": "J’ai reçu un message disant que j’ai gagné…",
+      "createdAt": "2026-10-25T18:16:20.605Z",
+      "updatedAt": "2026-10-25T18:16:20.866Z",
+      "messages": [
+        {
+          "id": "msg-1792952180605-rkew",
+          "role": "user",
+          "content": "J’ai reçu un message disant que j’ai gagné 500 000 FCFA par Orange Money avec un code à renvoyer",
+          "timestamp": "2026-10-25T18:16:20.605Z"
+        },
+        {
+          "id": "msg-1792952180866-ngqg",
+          "role": "assistant",
+          "content": "### ⚠️ Alerte Déontologique : Examen des frais et modalités de paiement\n\nAu Cameroun, **aucun concours administratif de la Fonction Publique (MINFOPRA, Police, Douanes, ENAM) ni aucun acte d'état civil ne perçoit de frais via Orange Money ou MTN Mobile Money**.\n\n#### Règle institutionnelle stricte :\n1. **Légalité du paiement :** Tout droit de timbre ou frais d'inscription légal s'acquitte obligatoirement auprès des régies du **Trésor Public** ou d'agences bancaires agréées donnant lieu à une quittance sécurisée.\n2. **Signalement d'escroquerie :** Toute annonce exigeant un transfert d'argent sur un numéro de téléphone personnel sous prétexte de « réserver une place » ou de « valider un dossier » est une **tentative d'escroquerie avérée**.\n3. **Canal de vérification :** Consultez toujours les arrêtés signés sur le portail officiel du ministère concerné (ex: *minfopra.gov.cm* pour la Fonction Publique).\n\n*Cette mise en garde fait partie des protocoles d'alerte certifiés par l'Observatoire Vérif237.*",
+          "timestamp": "2026-10-25T18:16:20.866Z",
+          "sources": [
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-2089)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-22",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            },
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-9063)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-21",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            },
+            {
+              "title": "Dossier Vérif237 (#VRF-2026-6002)",
+              "organization": "Observatoire Citoyen Vérif237",
+              "date": "2026-10-21",
+              "url": "/dossiers-actus",
+              "isOfficial": true,
+              "reliability": "officielle"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "conv-1792941255057-dzcdfu",
       "title": "J’ai reçu un message disant que j’ai gagné…",

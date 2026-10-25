@@ -25,20 +25,75 @@
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <script>
-      // Silence Vite HMR WebSocket closing errors in preview/sandbox iframe
-      window.addEventListener('error', function(e) {
-        if (e && e.message && (e.message.includes('WebSocket') || e.message.includes('@vite/client'))) {
-          e.preventDefault && e.preventDefault();
-          e.stopImmediatePropagation && e.stopImmediatePropagation();
-          return true;
+      (function() {
+        if (typeof window === 'undefined') return;
+        
+        // In AI Studio / preview iframes, HMR is disabled.
+        // Intercept Vite HMR WebSocket so that connection errors never occur.
+        const OriginalWebSocket = window.WebSocket;
+        if (OriginalWebSocket) {
+          class ViteHmrMockSocket extends EventTarget {
+            constructor(url, protocols) {
+              super();
+              this.url = url;
+              this.protocols = protocols;
+              this.readyState = 1; // WebSocket.OPEN
+              this.OPEN = 1;
+              this.CLOSED = 3;
+              this.CLOSING = 2;
+              this.CONNECTING = 0;
+              this.binaryType = 'blob';
+              this.bufferedAmount = 0;
+              this.extensions = '';
+              this.protocol = Array.isArray(protocols) ? protocols[0] || '' : (protocols || '');
+              setTimeout(() => {
+                const openEvent = new Event('open');
+                this.onopen && this.onopen(openEvent);
+                this.dispatchEvent(openEvent);
+              }, 0);
+            }
+            send(data) {}
+            close(code, reason) {
+              this.readyState = 3;
+              const closeEv = new CloseEvent('close', { wasClean: true, code: code || 1000, reason: reason || '' });
+              this.onclose && this.onclose(closeEv);
+              this.dispatchEvent(closeEv);
+            }
+          }
+
+          window.WebSocket = function(url, protocols) {
+            const isViteHmr = 
+              protocols === 'vite-hmr' || 
+              (Array.isArray(protocols) && protocols.includes('vite-hmr')) ||
+              (typeof url === 'string' && (url.includes('vite-hmr') || url.includes('/@vite/client')));
+            
+            if (isViteHmr) {
+              return new ViteHmrMockSocket(url, protocols);
+            }
+            return new OriginalWebSocket(url, protocols);
+          };
+          window.WebSocket.prototype = OriginalWebSocket.prototype;
+          window.WebSocket.CONNECTING = 0;
+          window.WebSocket.OPEN = 1;
+          window.WebSocket.CLOSING = 2;
+          window.WebSocket.CLOSED = 3;
         }
-      }, true);
-      window.addEventListener('unhandledrejection', function(e) {
-        if (e && e.reason && (String(e.reason).includes('WebSocket') || (e.reason.message && e.reason.message.includes('WebSocket')))) {
-          e.preventDefault && e.preventDefault();
-          return true;
-        }
-      }, true);
+
+        // Silence any residual WebSocket / Vite client logs or unhandled errors
+        window.addEventListener('error', function(e) {
+          if (e && e.message && (e.message.includes('WebSocket') || e.message.includes('@vite/client'))) {
+            e.preventDefault && e.preventDefault();
+            e.stopImmediatePropagation && e.stopImmediatePropagation();
+            return true;
+          }
+        }, true);
+        window.addEventListener('unhandledrejection', function(e) {
+          if (e && e.reason && (String(e.reason).includes('WebSocket') || (e.reason.message && e.reason.message.includes('WebSocket')))) {
+            e.preventDefault && e.preventDefault();
+            return true;
+          }
+        }, true);
+      })();
     </script>
   </head>
   <body class="bg-[#f7f9ff] dark:bg-[#0b1220] text-[#121c26] dark:text-[#f1f5f9] antialiased selection:bg-[#005c55] selection:text-white">
