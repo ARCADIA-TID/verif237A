@@ -561,6 +561,24 @@ export class VerificationQueue {
       elapsedSeconds: Math.round((Date.now() - active.startTime) / 1000)
     };
   }
+
+  /**
+   * Garantit la reprise active d'une tâche non terminée lors d'un appel polling (environnement serverless)
+   */
+  public ensureTaskRunning(investigationId: string): void {
+    if (this.processingMap.has(investigationId)) return;
+    const inv = db.getInvestigationById(investigationId) || db.getInvestigationByCode(investigationId);
+    if (!inv || !inv.aiVerification) return;
+    const st = inv.aiVerification.status;
+    if (st === 'en_attente' || st === 'analyse_en_cours' || st === 'verification_sources') {
+      const task = db.getVerificationTask(inv.id);
+      if (task?.input) {
+        this.enqueue(inv.id, task.input);
+      } else {
+        this.retryTask(inv.id);
+      }
+    }
+  }
 }
 
 export const verificationQueue = new VerificationQueue();

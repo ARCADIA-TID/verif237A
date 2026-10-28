@@ -264,9 +264,24 @@ export interface ApiKeyItem {
   permissions: string[];
 }
 
+// Base API URL support (Option A: relative /api on Vercel or local; Option B: external backend via VITE_API_URL)
+const envApiUrl = typeof import.meta !== 'undefined' && typeof import.meta.env?.VITE_API_URL === 'string'
+  ? (import.meta.env.VITE_API_URL as string).trim()
+  : '';
+export const API_BASE_URL = envApiUrl.replace(/\/+$/, '');
+
+export function buildApiUrl(endpoint: string): string {
+  if (endpoint.startsWith('http://') || endpoint.startsWith('https://')) {
+    return endpoint;
+  }
+  const cleanEndpoint = endpoint.startsWith('/') ? endpoint : `/${endpoint}`;
+  return `${API_BASE_URL}${cleanEndpoint}`;
+}
+
 // Universal fetch helper
 async function request<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
-  const res = await fetch(endpoint, {
+  const targetUrl = buildApiUrl(endpoint);
+  const res = await fetch(targetUrl, {
     headers: {
       'Content-Type': 'application/json',
       ...options.headers
@@ -275,12 +290,24 @@ async function request<T>(endpoint: string, options: RequestInit = {}): Promise<
   });
 
   if (!res.ok) {
-    let errMessage = `Erreur réseau (${res.status})`;
+    let errMessage = `Erreur réseau (${res.status} ${res.statusText || ''})`.trim();
+    const contentType = res.headers.get('content-type') || '';
     try {
-      const errorJson = await res.json();
-      if (errorJson.error) errMessage = errorJson.error;
+      if (contentType.includes('application/json')) {
+        const errorJson = await res.json();
+        if (errorJson?.error) {
+          errMessage = errorJson.error;
+        } else if (errorJson?.message) {
+          errMessage = errorJson.message;
+        }
+      } else {
+        const rawText = await res.text();
+        if (rawText && rawText.length < 250 && !rawText.includes('<!DOCTYPE') && !rawText.includes('<html')) {
+          errMessage = `${errMessage}: ${rawText.trim()}`;
+        }
+      }
     } catch {
-      // Ignore
+      // Keep default errMessage
     }
     throw new Error(errMessage);
   }

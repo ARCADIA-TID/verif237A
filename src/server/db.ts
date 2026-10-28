@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import os from 'os';
 import crypto from 'crypto';
 
 export interface AccreditedUserDB {
@@ -316,7 +317,11 @@ export interface DatabaseSchema {
   assistantConversations?: AssistantConversationDB[];
 }
 
-const DB_FILE_PATH = path.resolve(process.cwd(), '.data', 'verif237_db.json');
+const isServerless = Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME || process.env.LAMBDA_TASK_ROOT);
+const SEED_FILE_PATH = path.resolve(process.cwd(), '.data', 'verif237_db.json');
+const DB_FILE_PATH = isServerless
+  ? path.resolve(os.tmpdir(), 'verif237_db.json')
+  : path.resolve(process.cwd(), '.data', 'verif237_db.json');
 
 // Helper to calculate SHA-256
 export function sha256(data: string): string {
@@ -981,6 +986,12 @@ class DatabaseManager {
       if (fs.existsSync(DB_FILE_PATH)) {
         const raw = fs.readFileSync(DB_FILE_PATH, 'utf-8');
         return JSON.parse(raw);
+      }
+      if (isServerless && fs.existsSync(SEED_FILE_PATH)) {
+        const rawSeed = fs.readFileSync(SEED_FILE_PATH, 'utf-8');
+        const parsed = JSON.parse(rawSeed);
+        this.saveData(parsed);
+        return parsed;
       }
     } catch (e) {
       console.warn('Could not read existing database file, seeding defaults:', e);

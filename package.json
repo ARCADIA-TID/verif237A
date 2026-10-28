@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "test": "tsx src/tests/provider_and_services.test.ts && tsx src/tests/verification.test.ts && tsx src/tests/assistant_chat.test.ts"
+    "test": "tsx src/tests/provider_and_services.test.ts && tsx src/tests/verification.test.ts && tsx src/tests/assistant_chat.test.ts && tsx src/tests/deployment_and_api.test.ts"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
